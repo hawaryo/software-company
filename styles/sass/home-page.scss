@@ -1,0 +1,7 @@
+@use "./color" as color;
+@use "./font" as font;
+
+.title {
+    color: color.$secondary-color;
+    font-family: font.$tertiary-font;
+}
