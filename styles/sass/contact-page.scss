@@ -1,0 +1,6 @@
+@use "./color" as color;
+@use "./font" as font;
+
+body {
+    font-family: font.$primary-font;
+}
