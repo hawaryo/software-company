@@ -1,99 +1,169 @@
 @use "./color" as color;
 @use "./font" as font;
-
-body {
+@use "./buttons";
+@use "./textCards";
+/* body{
     font-family: font.$primary-font;
-}
+} */
 
 .headerMain {
+  padding: 32px;
+  background: linear-gradient(color.$primary-color, color.$tertiary-color);
 
-    padding: 32px;
-background: linear-gradient(color.$primary-color, color.$tertiary-color);
-    .headFristSection {
+  .headFristSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 64px;
+    .headerContent {
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 16px;
+      }
 
-        .headerContent {
+      .description {
+        font-size: 1.25rem;
+        margin-bottom: 24px;
+      }
 
-            h1 {
-                font-size: 4rem;
-                margin-bottom: 16px;
-            }
+      .email {
+        width: 250;
+        height: 40px;
+        border-color: #fcf4f4;
+        outline: none;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        padding: 0 24px;
+      }
 
-            .description {
-                font-size: 1.25rem;
-                margin-bottom: 24px;
-            }
+      .getDemoBtn {
+        background-color: color.$quaternary-color;
+        color: color.$primary-color;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 32px;
+      }
 
-            .email {
-                width: 250;
-                height: 40px;
-                border-color: #fcf4f4;
-                outline: none;
-                border-radius: 4px;
-                margin-bottom: 8px;
-                padding: 0 24px;
-            }
+      max-width: 600px;
 
-            .getDemoBtn {
-                background-color: color.$quaternary-color;
-                color: color.$primary-color;
-                border: none;
-                border-radius: 8px;
-                padding: 8px 32px;
-            }
-
-            max-width: 600px;
-
-
-
-            .reviews {
-                .reviewers img {
-                    border-radius: 24px;
-                    margin-right: -20px;
-                }
-            }
+      .reviews {
+        .reviewers img {
+          border-radius: 24px;
+          margin-right: -20px;
         }
-
-        .heroImgContainer {
-            position: relative;
-            width: fit-content;
-
-            .accountImg,
-            .countriesImg {
-                position: absolute;
-
-            }
-
-            .countriesImg {
-                top: 250px;
-                left: 50px;
-                transform: translate(-50%, -50%);
-
-            }
-
-            .accountImg {
-                bottom: 200px;
-                right: 50px;
-                transform: translate(50%, 50%);
-
-            }
-
-
-        }
-
+      }
     }
 
-    .brands {
-       text-align: center;
-       margin-top: 32px;
-       img{
-        margin: 0 16px;
-       }
-    }
+    .heroImgContainer {
+      position: relative;
+      width: fit-content;
 
+      .accountImg,
+      .countriesImg {
+        position: absolute;
+
+        @media screen and (max-width: 780px) {
+          display: none;
+        }
+      }
+
+      .countriesImg {
+        top: 250px;
+        left: 50px;
+        transform: translate(-50%, -50%);
+      }
+
+      .accountImg {
+        bottom: 200px;
+        right: 50px;
+        transform: translate(50%, 50%);
+      }
+    }
+  }
+
+  .brands {
+    text-align: center;
+    margin-top: 32px;
+
+    img {
+      margin: 0 16px;
+    }
+  }
 }
+
+main {
+  /* feature section */
+  .featuresContainer {
+    margin: 64px 0 64px 0;
+    .featuresSectionIntro {
+        @extend %PrimaryTextCard;
+        h2 {
+              font-size: 3rem; 
+            }
+    }
+
+ .mainFeatures {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex: 1 1 100%;
+      margin: 0 auto;
+      max-width: 1440px;
+
+      .FeatureContainer {
+        font-family: font.$primary-font;
+        padding: 32px;
+
+        &:nth-child(even) {
+          background: linear-gradient(
+            color.$primary-color,
+            color.$tertiary-color
+          );
+        }
+
+        .featureIcon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 32px;
+          width: 50px;
+          padding: 12px;
+          border-radius: 12px;
+          background-color: color.$quaternary-color;
+        }
+
+        p {
+          @media screen and (min-width: 780px) {
+            max-width: 320px;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: color.$quaternary-color;
+          font-size: 1rem;
+        }
+      }
+    }
+  .featuresSectionOutro{
+    @extend %PrimaryTextCard;
+
+    .demoBtn{
+    @extend %secondaryButton;
+    margin-right: 8px
+    }
+    .trialBtn{
+     @extend %primaryButton;
+     
+    }
+
+  }
+    
+  }
+}
+
+.test{
+  @extend %secondaryButton;
+} 

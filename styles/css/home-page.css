@@ -16,10 +16,69 @@
   font-weight: 600;
   font-style: normal;
 }
-body {
+main .featuresContainer .featuresSectionOutro .trialBtn {
+  background-color: #0F604D;
+  color: white;
   font-family: "Graphik-Regular", sans-serif;
+  font-weight: 505;
+  font-size: 1rem;
+  border: 0;
+  padding: 8px 4px;
+  border-radius: 8px;
+  transition: 0.5s;
+  width: 150px;
+}
+main .featuresContainer .featuresSectionOutro .trialBtn:hover {
+  background-color: #0c4e3e;
 }
 
+main .featuresContainer .featuresSectionOutro .demoBtn, .test {
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  color: #000000;
+  font-family: "Graphik-Regular", sans-serif;
+  font-weight: 505;
+  font-size: 1rem;
+  border: 1px solid #e2e2e2;
+  padding: 8px 4px;
+  border-radius: 8px;
+  transition: 0.5s;
+  width: 150px;
+}
+main .featuresContainer .featuresSectionOutro .demoBtn:hover, .test:hover {
+  border: 1px solid rgb(169, 169, 169);
+}
+
+main .featuresContainer .featuresSectionIntro, main .featuresContainer .featuresSectionOutro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0;
+  padding: 8px;
+}
+main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon {
+  font-family: "Graphik-Regular", sans-serif;
+  color: #0F604D;
+  font-size: 1rem;
+  border: 1px solid #eeecec;
+  border-radius: 24px;
+  padding: 4px 24px;
+  margin-bottom: 16px;
+}
+main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2 {
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description {
+  font-size: 1.25rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* body{
+    font-family: font.$primary-font;
+} */
 .headerMain {
   padding: 32px;
   background: linear-gradient(white, #F5EEE9);
@@ -70,6 +129,12 @@ body {
 .headerMain .headFristSection .heroImgContainer .countriesImg {
   position: absolute;
 }
+@media screen and (max-width: 780px) {
+  .headerMain .headFristSection .heroImgContainer .accountImg,
+  .headerMain .headFristSection .heroImgContainer .countriesImg {
+    display: none;
+  }
+}
 .headerMain .headFristSection .heroImgContainer .countriesImg {
   top: 250px;
   left: 50px;
@@ -86,4 +151,52 @@ body {
 }
 .headerMain .brands img {
   margin: 0 16px;
+}
+
+main {
+  /* feature section */
+}
+main .featuresContainer {
+  margin: 64px 0 64px 0;
+}
+main .featuresContainer .featuresSectionIntro h2 {
+  font-size: 3rem;
+}
+main .featuresContainer .mainFeatures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+main .featuresContainer .mainFeatures .FeatureContainer {
+  font-family: "Graphik-Regular", sans-serif;
+  padding: 32px;
+}
+main .featuresContainer .mainFeatures .FeatureContainer:nth-child(even) {
+  background: linear-gradient(white, #F5EEE9);
+}
+main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 50px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #0F604D;
+}
+@media screen and (min-width: 780px) {
+  main .featuresContainer .mainFeatures .FeatureContainer p {
+    max-width: 320px;
+  }
+}
+main .featuresContainer .mainFeatures .FeatureContainer a {
+  text-decoration: none;
+  color: #0F604D;
+  font-size: 1rem;
+}
+main .featuresContainer .featuresSectionOutro .demoBtn {
+  margin-right: 8px;
 }
