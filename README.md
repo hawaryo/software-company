@@ -1,6 +1,6 @@
 # software-company
 
-Each HTML folder contains a comment corresponding to the number of the image. For example, the page "one" is associated with `1.png` in the assignment images.
+## Level-one
 
 ### Install
 
@@ -18,20 +18,18 @@ Each HTML folder contains a comment corresponding to the number of the image. Fo
    npm install
    ```
 
-4. To Convert sass files to css (css files will appear under styles/css):
+4. To compile sass files to css (css files will appear under styles/css):
    ```bash
     npm run build-css
    ```
 
 ### Adding Features
 
-For Level One:
-
 1. Ensure you are on the `Level-one` branch:
    ```bash
    git switch Level-one
    ```
-2. Create a new branch for your task:
+2. Create a new branch for your task with descriptive name:
    ```bash
    git checkout -b feat/adding-footer
    ```
@@ -50,6 +48,4 @@ For Level One:
    git push origin feat/adding-footer
    ```
 
-```
-
-```
+### Note: always keep you eye on the branch you are working on.
