@@ -32,7 +32,7 @@ main .featuresContainer .featuresSectionOutro .trialBtn:hover {
   background-color: #0c4e3e;
 }
 
-main .featuresContainer .featuresSectionOutro .demoBtn, .test {
+main .featuresContainer .featuresSectionOutro .demoBtn {
   background-color: white;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -45,7 +45,7 @@ main .featuresContainer .featuresSectionOutro .demoBtn, .test {
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .demoBtn:hover, .test:hover {
+main .featuresContainer .featuresSectionOutro .demoBtn:hover {
   border: 1px solid rgb(169, 169, 169);
 }
 

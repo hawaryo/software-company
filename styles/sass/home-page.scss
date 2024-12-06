@@ -152,7 +152,7 @@ main {
 
     .demoBtn{
     @extend %secondaryButton;
-    margin-right: 8px
+    margin-right: 8px;
     }
     .trialBtn{
      @extend %primaryButton;
@@ -162,8 +162,8 @@ main {
   }
     
   }
-}
 
-.test{
-  @extend %secondaryButton;
-} 
+  .detailsContainer{
+    
+  }
+}
