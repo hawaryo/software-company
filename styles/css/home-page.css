@@ -16,7 +16,7 @@
   font-weight: 600;
   font-style: normal;
 }
-main .featuresContainer .featuresSectionOutro .trialBtn {
+main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
   background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
@@ -28,11 +28,11 @@ main .featuresContainer .featuresSectionOutro .trialBtn {
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .trialBtn:hover {
+main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
   background-color: #0c4e3e;
 }
 
-main .featuresContainer .featuresSectionOutro .demoBtn {
+main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .comparePlans .compareBtn {
   background-color: white;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -45,35 +45,113 @@ main .featuresContainer .featuresSectionOutro .demoBtn {
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .demoBtn:hover {
+main .featuresContainer .featuresSectionOutro .demoBtn:hover, main .pricingContainer .comparePlans .compareBtn:hover {
   border: 1px solid rgb(169, 169, 169);
 }
 
-main .featuresContainer .featuresSectionIntro, main .featuresContainer .featuresSectionOutro {
+main .featuresContainer .featuresSectionIntro, main .featuresContainer .featuresSectionOutro, main .pricingContainer .pricingIntro, main .questionSection .questionIntro, main .teamSection .teamIntro {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 32px 0;
   padding: 8px;
 }
-main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon {
+main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon {
   font-family: "Graphik-Regular", sans-serif;
   color: #0F604D;
   font-size: 1rem;
-  border: 1px solid #eeecec;
-  border-radius: 24px;
+  font-weight: bold;
   padding: 4px 24px;
   margin-bottom: 16px;
 }
-main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2 {
+main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2, main .pricingContainer .pricingIntro h2, main .questionSection .questionIntro h2, main .teamSection .teamIntro h2 {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 16px;
 }
-main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description {
+main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description, main .pricingContainer .pricingIntro .description, main .questionSection .questionIntro .description, main .teamSection .teamIntro .description {
   font-size: 1.25rem;
   max-width: 800px;
   text-align: center;
+}
+
+main .pricingContainer .pricingCards .pricingCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5EEE9;
+  padding: 56px 64px 56px 64px;
+  border-radius: 16px;
+  max-width: 500px;
+}
+main .pricingContainer .pricingCards .pricingCard .label {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #0F604D;
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+main .pricingContainer .pricingCards .pricingCard .title {
+  color: #0F604D;
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+main .pricingContainer .pricingCards .pricingCard .price {
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+main .pricingContainer .pricingCards .pricingCard .price .month {
+  font-size: 2rem;
+}
+main .pricingContainer .pricingCards .pricingCard .description {
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+  text-align: center;
+}
+main .pricingContainer .pricingCards .pricingCard .pricingBtn {
+  margin-bottom: 16px;
+  padding: 12px;
+  width: 100%;
+}
+main .pricingContainer .pricingCards .pricingCard hr {
+  width: 100%;
+}
+main .pricingContainer .pricingCards .pricingCard .featuresList {
+  align-self: flex-start;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 1.1rem;
+  font-family: "Graphik-Medium", sans-serif;
+}
+
+main .feedbacksection .feedbackCard, main .questionSection .questionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin: 32px auto;
+  text-align: center;
+  background-color: #F5EEE9;
+  align-items: center;
+  padding: 48px 40px;
+  border-radius: 16px;
+  max-width: 1000px;
 }
 
 /* body{
@@ -161,9 +239,16 @@ main {
   /* feature section */
   /* details section */
   /* pricing section */
+  /* feedback section */
+  /* Question section */
+  /*team section */
 }
 main .featuresContainer {
   margin: 64px 0 64px 0;
+}
+main .featuresContainer .featuresSectionIntro .icon {
+  border: 1px solid #eeecec;
+  border-radius: 24px;
 }
 main .featuresContainer .featuresSectionIntro h2 {
   font-size: 3rem;
@@ -296,4 +381,78 @@ main .detailsContainer .detailSecondSection .details .featuresList .featureIcon 
 }
 main .detailsContainer .detailSecondSection .bottomImage {
   max-width: 100%;
+}
+main .pricingContainer .pricingCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+main .pricingContainer .comparePlans {
+  margin-top: 64px;
+  text-align: center;
+}
+main .pricingContainer .comparePlans .compareBtn {
+  width: 200px;
+  padding: 12px;
+}
+main .pricingContainer .comparePlans p {
+  margin-top: 8px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-size: 1rem;
+}
+main .feedbacksection .feedbackCard .logo {
+  margin-bottom: 16px;
+}
+main .feedbacksection .feedbackCard .qoute {
+  margin-bottom: 32px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  max-width: 700px;
+}
+main .feedbacksection .feedbackCard h6 {
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main .feedbacksection a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #0F604D;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+main .questionSection .questionIntro h2 {
+  font-size: 2.5rem;
+}
+main .questionSection .accordion {
+  margin: 0 auto;
+  max-width: 700px;
+}
+main .questionSection .accordion .accordion-button {
+  background-color: white;
+  box-shadow: none;
+}
+main .questionSection .questionCard {
+  gap: 8px;
+}
+main .questionSection .questionCard img {
+  border: 2px solid #F5EEE9;
+  border-radius: 24px;
+  margin-right: -20px;
+}
+main .questionSection .questionCard h5 {
+  font-family: "Graphik-Semibold", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+main .questionSection .questionCard .questionBtn {
+  font-size: 1rem;
+  font-weight: bold;
+}
+main .teamSection .teamIntro h2 {
+  font-size: 2.5rem;
 }
