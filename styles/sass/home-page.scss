@@ -402,18 +402,125 @@ main {
 
     }
 
-  
+
   }
 
-  
-/*team section */
-    .teamSection {
-      .teamIntro {
-        @extend %PrimaryTextCard;
-  
-        h2 {
-          font-size: 2.5rem;
+  /*team section */
+  .teamSection {
+    .teamIntro {
+      @extend %PrimaryTextCard;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+
+    }
+
+    .teamMembers {
+      margin: 0 auto;
+      max-width: 1200px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+
+      @media screen and (max-width: 1050px) {
+        justify-content: center;
+      }
+
+      .memberCard {
+        .memberImg {
+          border-radius: 8px;
+          margin-bottom: 16px;
+        }
+
+        .memberName {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 2px;
+        }
+
+        .memberRole {
+          font-size: 1rem;
         }
       }
     }
+
+    .hiring {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 32px 0;
+      padding: 8px;
+
+      .hiringDescription {
+        text-align: center;
+        max-width: 400px;
+      }
+
+      .hiringBtn {
+        @extend %secondaryButton;
+      }
+    }
+  }
+
+  /*insights section */
+  .insightsSection {
+    background-color: color.$tertiary-color;
+
+    .introContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      flex-wrap: wrap;
+
+      .insightsIntro {
+        @extend %PrimaryTextCard;
+        align-items: flex-start;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+        .icon {
+          padding-inline-start: 0;
+        }
+
+        .description {
+          margin-bottom: 0;
+        }
+      }
+
+      .postsBtn {
+        @extend %primaryButton;
+        margin-top: 8px;
+      }
+    }
+
+    .postsContainer {
+      margin-top: 32px; 
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .postCard {
+        .postImg {
+          border-radius: 12px;
+          margin-bottom: 16px;
+        }
+
+        .postDescription {
+          max-width: 400px;
+        }
+
+        .postLink {
+          text-decoration: none;
+          color: color.$quaternary-color;
+          font-size: 1.1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
 }

@@ -16,7 +16,7 @@
   font-weight: 600;
   font-style: normal;
 }
-main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
+main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .insightsSection .introContainer .postsBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
   background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
@@ -28,11 +28,11 @@ main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
+main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .insightsSection .introContainer .postsBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
   background-color: #0c4e3e;
 }
 
-main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .comparePlans .compareBtn {
+main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .comparePlans .compareBtn, main .teamSection .hiring .hiringBtn {
   background-color: white;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -45,18 +45,18 @@ main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .demoBtn:hover, main .pricingContainer .comparePlans .compareBtn:hover {
+main .featuresContainer .featuresSectionOutro .demoBtn:hover, main .pricingContainer .comparePlans .compareBtn:hover, main .teamSection .hiring .hiringBtn:hover {
   border: 1px solid rgb(169, 169, 169);
 }
 
-main .featuresContainer .featuresSectionIntro, main .featuresContainer .featuresSectionOutro, main .pricingContainer .pricingIntro, main .questionSection .questionIntro, main .teamSection .teamIntro {
+main .featuresContainer .featuresSectionIntro, main .featuresContainer .featuresSectionOutro, main .pricingContainer .pricingIntro, main .questionSection .questionIntro, main .teamSection .teamIntro, main .insightsSection .introContainer .insightsIntro {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 32px 0;
   padding: 8px;
 }
-main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon {
+main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon, main .insightsSection .introContainer .insightsIntro .icon {
   font-family: "Graphik-Regular", sans-serif;
   color: #0F604D;
   font-size: 1rem;
@@ -64,13 +64,13 @@ main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .fe
   padding: 4px 24px;
   margin-bottom: 16px;
 }
-main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2, main .pricingContainer .pricingIntro h2, main .questionSection .questionIntro h2, main .teamSection .teamIntro h2 {
+main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2, main .pricingContainer .pricingIntro h2, main .questionSection .questionIntro h2, main .teamSection .teamIntro h2, main .insightsSection .introContainer .insightsIntro h2 {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 16px;
 }
-main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description, main .pricingContainer .pricingIntro .description, main .questionSection .questionIntro .description, main .teamSection .teamIntro .description {
+main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description, main .pricingContainer .pricingIntro .description, main .questionSection .questionIntro .description, main .teamSection .teamIntro .description, main .insightsSection .introContainer .insightsIntro .description {
   font-size: 1.25rem;
   max-width: 800px;
   text-align: center;
@@ -242,6 +242,7 @@ main {
   /* feedback section */
   /* Question section */
   /*team section */
+  /*insights section */
 }
 main .featuresContainer {
   margin: 64px 0 64px 0;
@@ -455,4 +456,83 @@ main .questionSection .questionCard .questionBtn {
 }
 main .teamSection .teamIntro h2 {
   font-size: 2.5rem;
+}
+main .teamSection .teamMembers {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+@media screen and (max-width: 1050px) {
+  main .teamSection .teamMembers {
+    justify-content: center;
+  }
+}
+main .teamSection .teamMembers .memberCard .memberImg {
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+main .teamSection .teamMembers .memberCard .memberName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+main .teamSection .teamMembers .memberCard .memberRole {
+  font-size: 1rem;
+}
+main .teamSection .hiring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0;
+  padding: 8px;
+}
+main .teamSection .hiring .hiringDescription {
+  text-align: center;
+  max-width: 400px;
+}
+main .insightsSection {
+  background-color: #F5EEE9;
+}
+main .insightsSection .introContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+main .insightsSection .introContainer .insightsIntro {
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+main .insightsSection .introContainer .insightsIntro .icon {
+  padding-inline-start: 0;
+}
+main .insightsSection .introContainer .insightsIntro .description {
+  margin-bottom: 0;
+}
+main .insightsSection .introContainer .postsBtn {
+  margin-top: 8px;
+}
+main .insightsSection .postsContainer {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+main .insightsSection .postsContainer .postCard .postImg {
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+main .insightsSection .postsContainer .postCard .postDescription {
+  max-width: 400px;
+}
+main .insightsSection .postsContainer .postCard .postLink {
+  text-decoration: none;
+  color: #0F604D;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
