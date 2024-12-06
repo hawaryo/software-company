@@ -94,17 +94,20 @@
 }
 
 main {
+
   /* feature section */
   .featuresContainer {
     margin: 64px 0 64px 0;
+
     .featuresSectionIntro {
-        @extend %PrimaryTextCard;
-        h2 {
-              font-size: 3rem; 
-            }
+      @extend %PrimaryTextCard;
+
+      h2 {
+        font-size: 3rem;
+      }
     }
 
- .mainFeatures {
+    .mainFeatures {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -117,10 +120,8 @@ main {
         padding: 32px;
 
         &:nth-child(even) {
-          background: linear-gradient(
-            color.$primary-color,
-            color.$tertiary-color
-          );
+          background: linear-gradient(color.$primary-color,
+              color.$tertiary-color );
         }
 
         .featureIcon {
@@ -147,23 +148,124 @@ main {
         }
       }
     }
-  .featuresSectionOutro{
-    @extend %PrimaryTextCard;
 
-    .demoBtn{
-    @extend %secondaryButton;
-    margin-right: 8px;
+    .featuresSectionOutro {
+      @extend %PrimaryTextCard;
+
+      .demoBtn {
+        @extend %secondaryButton;
+        margin-right: 8px;
+      }
+
+      .trialBtn {
+        @extend %primaryButton;
+      }
     }
-    .trialBtn{
-     @extend %primaryButton;
-     
+  }
+
+  .detailsContainer {
+    background-color: color.$tertiary-color;
+
+    .detailFirstSection {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .topImage {
+        flex: 1 1 100px;
+
+        @media screen and (max-width: 750px) {
+          max-width: 600px;
+
+        }
+      }
+
+      .details {
+        padding: 64px;
+        max-width: 900px;
+        flex: 1 1 200px;
+
+        @media screen and (max-width: 750px) {
+          padding: 32px;
+        }
+
+        h3 {
+          font-family: font.$tertiary-font;
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+
+        .accordion-body,
+        .accordion-button {
+          background-color: color.$tertiary-color;
+        }
+
+        .accordion-button {
+          font-family: font.$secondary-font;
+          font-weight: 500;
+          font-size: 1.5rem;
+        }
+
+        .accordionIcon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-inline-end: 8px;
+          width: 40px;
+          height: 40px;
+          padding: 8px;
+          border-radius: 50%;
+          background-color: color.$quaternary-color;
+
+        }
+      }
     }
 
-  }
-    
-  }
+    .detailSecondSection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
 
-  .detailsContainer{
-    
+      .details {
+        padding: 64px;
+        max-width: 900px;
+        flex: 1 1 200px;
+
+        @media screen and (max-width: 750px) {
+          padding: 32px;
+        }
+
+        h3 {
+          font-family: font.$tertiary-font;
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+
+        p{
+          margin-bottom: 16px;
+        }
+
+        .featuresList {
+          margin-top: 32px;
+          display: flex;
+          flex-wrap: wrap;
+
+          .featureIcon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 16px;
+            width: 50px;
+            height: 50px;
+            padding: 8px;
+            border-radius: 50%;
+            background-color: color.$quaternary-color;
+          }
+        }
+      }
+    }
   }
 }
