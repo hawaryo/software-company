@@ -80,6 +80,10 @@
         right: 50px;
         transform: translate(50%, 50%);
       }
+      .heroImg{
+        max-width: 100%;
+        border-radius: 16px;
+      }
     }
   }
 
@@ -162,23 +166,19 @@ main {
       }
     }
   }
-
+ /* details section */
   .detailsContainer {
     background-color: color.$tertiary-color;
 
     .detailFirstSection {
       display: flex;
+
       align-items: center;
       flex-wrap: wrap;
       gap: 32px;
 
       .topImage {
-        flex: 1 1 100px;
-
-        @media screen and (max-width: 750px) {
-          max-width: 600px;
-
-        }
+        max-width: 100%;
       }
 
       .details {
@@ -244,7 +244,7 @@ main {
           font-weight: bold;
         }
 
-        p{
+        p {
           margin-bottom: 16px;
         }
 
@@ -264,8 +264,17 @@ main {
             border-radius: 50%;
             background-color: color.$quaternary-color;
           }
+
+
         }
+      }
+
+      .bottomImage {
+        max-width: 100%;
       }
     }
   }
+
+ /* pricing section */
+
 }

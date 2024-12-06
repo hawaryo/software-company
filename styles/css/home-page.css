@@ -145,6 +145,10 @@ main .featuresContainer .featuresSectionIntro .description, main .featuresContai
   right: 50px;
   transform: translate(50%, 50%);
 }
+.headerMain .headFristSection .heroImgContainer .heroImg {
+  max-width: 100%;
+  border-radius: 16px;
+}
 .headerMain .brands {
   text-align: center;
   margin-top: 32px;
@@ -155,6 +159,8 @@ main .featuresContainer .featuresSectionIntro .description, main .featuresContai
 
 main {
   /* feature section */
+  /* details section */
+  /* pricing section */
 }
 main .featuresContainer {
   margin: 64px 0 64px 0;
@@ -210,12 +216,7 @@ main .detailsContainer .detailFirstSection {
   gap: 32px;
 }
 main .detailsContainer .detailFirstSection .topImage {
-  flex: 1 1 100px;
-}
-@media screen and (max-width: 750px) {
-  main .detailsContainer .detailFirstSection .topImage {
-    max-width: 600px;
-  }
+  max-width: 100%;
 }
 main .detailsContainer .detailFirstSection .details {
   padding: 64px;
@@ -292,4 +293,7 @@ main .detailsContainer .detailSecondSection .details .featuresList .featureIcon 
   padding: 8px;
   border-radius: 50%;
   background-color: #0F604D;
+}
+main .detailsContainer .detailSecondSection .bottomImage {
+  max-width: 100%;
 }
