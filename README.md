@@ -56,4 +56,15 @@
    git push origin feat/adding-footer
    ```
 
-### Note: always keep you eye on the branch you are working on.
+### Note: Always keep an eye on the branch you are working on.
+
+
+----------
+
+**Before pushing your changes, ensure your local repository is up-to-date with the remote:**
+
+```bash
+git pull
+```
+
+This ensures you avoid conflicts and are working with the latest version of the code.

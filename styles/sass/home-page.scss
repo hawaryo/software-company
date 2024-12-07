@@ -1,99 +1,527 @@
 @use "./color" as color;
 @use "./font" as font;
-
-body {
+@use "./buttons";
+@use "./textCards";
+/* body{
     font-family: font.$primary-font;
-}
+} */
 
 .headerMain {
+  padding: 32px;
+  background: linear-gradient(color.$primary-color, color.$tertiary-color);
 
-    padding: 32px;
-background: linear-gradient(color.$primary-color, color.$tertiary-color);
-    .headFristSection {
+  .headFristSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px;
 
-        display: flex;
+    .headerContent {
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 16px;
+      }
+
+      .description {
+        font-size: 1.25rem;
+        margin-bottom: 24px;
+      }
+
+      .email {
+        width: 250;
+        height: 40px;
+        border: 1px solid #d8d8d8;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        margin-right: 4px;
+        padding: 24px;
+      }
+
+      .getDemoBtn {
+        background-color: color.$quaternary-color;
+        color: color.$primary-color;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 32px;
+      }
+
+      max-width: 600px;
+
+      .reviews {
+        .reviewers img {
+          border-radius: 24px;
+          margin-right: -20px;
+        }
+      }
+    }
+
+    .heroImgContainer {
+      position: relative;
+      width: fit-content;
+
+      .accountImg,
+      .countriesImg {
+        position: absolute;
+
+        @media screen and (max-width: 780px) {
+          display: none;
+        }
+      }
+
+      .countriesImg {
+        top: 250px;
+        left: 50px;
+        transform: translate(-50%, -50%);
+      }
+
+      .accountImg {
+        bottom: 200px;
+        right: 50px;
+        transform: translate(50%, 50%);
+      }
+
+      .heroImg {
+        max-width: 100%;
+        border-radius: 16px;
+      }
+    }
+  }
+
+  .brands {
+    text-align: center;
+    margin-top: 32px;
+
+    img {
+      margin: 0 16px;
+    }
+  }
+}
+
+main {
+
+  /* feature section */
+  .featuresContainer {
+    margin: 64px 0 64px 0;
+
+    .featuresSectionIntro {
+      @extend %PrimaryTextCard;
+
+      .icon {
+        border: 1px solid #eeecec;
+        border-radius: 24px;
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+    }
+
+    .mainFeatures {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex: 1 1 100%;
+      margin: 0 auto;
+      max-width: 1440px;
+
+      .FeatureContainer {
+        font-family: font.$primary-font;
+        padding: 32px;
+
+        &:nth-child(even) {
+          background: linear-gradient(color.$primary-color,
+              color.$tertiary-color );
+        }
+
+        .featureIcon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 32px;
+          width: 50px;
+          padding: 12px;
+          border-radius: 12px;
+          background-color: color.$quaternary-color;
+        }
+
+        p {
+          @media screen and (min-width: 780px) {
+            max-width: 320px;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: color.$quaternary-color;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .featuresSectionOutro {
+      @extend %PrimaryTextCard;
+
+      .demoBtn {
+        @extend %secondaryButton;
+        margin-right: 8px;
+      }
+
+      .trialBtn {
+        @extend %primaryButton;
+      }
+    }
+  }
+
+  /* details section */
+  .detailsContainer {
+    background-color: color.$tertiary-color;
+
+    .detailFirstSection {
+      display: flex;
+
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .topImage {
+        max-width: 100%;
+      }
+
+      .details {
+        padding: 64px;
+        max-width: 900px;
+        flex: 1 1 550px;
+
+        @media screen and (max-width: 750px) {
+          padding: 32px;
+        }
+
+        h3 {
+          font-family: font.$tertiary-font;
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+
+        .accordion-body,
+        .accordion-button {
+          background-color: color.$tertiary-color;
+        }
+
+        .accordion-button {
+          font-family: font.$secondary-font;
+          font-weight: 500;
+          font-size: 1.5rem;
+        }
+
+        .accordionIcon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-inline-end: 8px;
+          width: 40px;
+          height: 40px;
+          padding: 8px;
+          border-radius: 50%;
+          background-color: color.$quaternary-color;
+
+        }
+      }
+    }
+
+    .detailSecondSection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .details {
+        padding: 64px;
+        max-width: 900px;
+        flex: 1 1 500px;
+
+        @media screen and (max-width: 750px) {
+          padding: 32px;
+        }
+
+        h3 {
+          font-family: font.$tertiary-font;
+          font-size: 2.5rem;
+          font-weight: bold;
+        }
+
+        p {
+          margin-bottom: 16px;
+        }
+
+        .featuresList {
+          margin-top: 32px;
+          display: flex;
+          flex-wrap: wrap;
+
+          .featureIcon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 16px;
+            width: 50px;
+            height: 50px;
+            padding: 8px;
+            border-radius: 50%;
+            background-color: color.$quaternary-color;
+          }
+
+
+        }
+      }
+
+      .bottomImage {
+        max-width: 100%;
+      }
+    }
+  }
+
+  /* pricing section */
+  .pricingContainer {
+    .pricingIntro {
+      @extend %PrimaryTextCard;
+    }
+
+    .pricingCards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .pricingCard {
+        @extend %pricingCard;
+      }
+
+    }
+
+    .comparePlans {
+
+      margin-top: 64px;
+      text-align: center;
+
+      .compareBtn {
+        @extend %secondaryButton;
+        width: 200px;
+        padding: 12px;
+      }
+
+      p {
+        margin-top: 8px;
+        font-family: font.$secondary-font;
+        font-size: 1rem;
+      }
+    }
+  }
+
+
+  /* feedback section */
+  .feedbacksection {
+    .feedbackCard {
+      @extend %secondaryCard;
+
+      .logo {
+        margin-bottom: 16px;
+      }
+
+      .qoute {
+        margin-bottom: 32px;
+        font-family: font.$secondary-font;
+        font-size: 1.25rem;
+        font-weight: bold;
+        max-width: 700px;
+      }
+
+      h6 {
+        font-family: font.$tertiary-font;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+      }
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      text-decoration: none;
+      color: color.$quaternary-color;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+  }
+
+
+  /* Question section */
+  .questionSection {
+    .questionIntro {
+      @extend %PrimaryTextCard;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .accordion {
+      margin: 0 auto;
+      max-width: 700px;
+
+      .accordion-button {
+        background-color: white;
+
+        box-shadow: none;
+      }
+    }
+
+    .questionCard {
+      @extend %secondaryCard;
+      gap: 8px;
+
+      img {
+        border: 2px solid color.$tertiary-color;
+        border-radius: 24px;
+        margin-right: -20px;
+      }
+
+      h5 {
+        font-family: font.$tertiary-font;
+        font-size: 1.6rem;
+        font-weight: bold;
+      }
+
+      .questionBtn {
+        @extend %primaryButton;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+    }
+
+
+  }
+
+  /*team section */
+  .teamSection {
+    .teamIntro {
+      @extend %PrimaryTextCard;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+
+    }
+
+    .teamMembers {
+      margin: 0 auto;
+      max-width: 1200px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+
+      @media screen and (max-width: 1050px) {
         justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 64px;
+      }
 
-        .headerContent {
-
-            h1 {
-                font-size: 4rem;
-                margin-bottom: 16px;
-            }
-
-            .description {
-                font-size: 1.25rem;
-                margin-bottom: 24px;
-            }
-
-            .email {
-                width: 250;
-                height: 40px;
-                border-color: #fcf4f4;
-                outline: none;
-                border-radius: 4px;
-                margin-bottom: 8px;
-                padding: 0 24px;
-            }
-
-            .getDemoBtn {
-                background-color: color.$quaternary-color;
-                color: color.$primary-color;
-                border: none;
-                border-radius: 8px;
-                padding: 8px 32px;
-            }
-
-            max-width: 600px;
-
-
-
-            .reviews {
-                .reviewers img {
-                    border-radius: 24px;
-                    margin-right: -20px;
-                }
-            }
+      .memberCard {
+        .memberImg {
+          border-radius: 8px;
+          margin-bottom: 16px;
         }
 
-        .heroImgContainer {
-            position: relative;
-            width: fit-content;
-
-            .accountImg,
-            .countriesImg {
-                position: absolute;
-
-            }
-
-            .countriesImg {
-                top: 250px;
-                left: 50px;
-                transform: translate(-50%, -50%);
-
-            }
-
-            .accountImg {
-                bottom: 200px;
-                right: 50px;
-                transform: translate(50%, 50%);
-
-            }
-
-
+        .memberName {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 2px;
         }
 
+        .memberRole {
+          font-size: 1rem;
+        }
+      }
     }
 
-    .brands {
-       text-align: center;
-       margin-top: 32px;
-       img{
-        margin: 0 16px;
-       }
+    .hiring {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 32px 0;
+      padding: 8px;
+
+      .hiringDescription {
+        text-align: center;
+        max-width: 400px;
+      }
+
+      .hiringBtn {
+        @extend %secondaryButton;
+      }
     }
+  }
+
+  /*insights section */
+  .insightsSection {
+    background-color: color.$tertiary-color;
+
+    .introContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      flex-wrap: wrap;
+
+      .insightsIntro {
+        @extend %PrimaryTextCard;
+        align-items: flex-start;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+        .icon {
+          padding-inline-start: 0;
+        }
+
+        .description {
+          margin-bottom: 0;
+        }
+      }
+
+      .postsBtn {
+        @extend %primaryButton;
+        margin-top: 8px;
+      }
+    }
+
+    .postsContainer {
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+
+      .postCard {
+        .postImg {
+          border-radius: 12px;
+          margin-bottom: 16px;
+        }
+
+        .postDescription {
+          max-width: 400px;
+        }
+
+        .postLink {
+          text-decoration: none;
+          color: color.$quaternary-color;
+          font-size: 1.1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 
 }
+
