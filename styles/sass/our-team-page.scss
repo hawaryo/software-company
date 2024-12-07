@@ -1,0 +1,92 @@
+@use "./color" as color;
+@use "./font" as font;
+
+
+
+.intro {
+  margin-top: 128px;
+}
+
+.our-team-desc {
+  span {
+    color: color.$quaternary-color;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+.btn-our-team {
+  background-color: color.$quaternary-color;
+  color: color.$primary-color;
+}
+
+.btn-our-team:hover {
+  background-color: color.$quaternary-color-dark;
+  color: color.$primary-color;
+}
+
+.cards {
+  .card {
+    border: none;
+  }
+
+  span {
+    color: color.$quaternary-color;
+    font-size: 1.125rem;
+  }
+}
+
+.questions {
+  border-top: 1px solid #80808036;
+
+  border-bottom: 1px solid #80808036;
+
+  .faq-item.active .answer {
+    display: block;
+  }
+
+  .answer {
+    display: none;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+
+  h5 {
+    padding-top: 25px;
+  }
+
+  .question:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  a {
+    color: color.$quaternary-color;
+  }
+
+  a:hover {
+    color: color.$quaternary-color-dark;
+  }
+}
+
+.hiring {
+  div {
+    max-width: 450px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    opacity: 0.7;
+  }
+
+  .btn-hiring {
+    border: 1px solid #807f7f5c;
+  }
+
+  .btn-hiring:hover {
+    cursor: pointer;
+    border: 1px solid #808080b5;
+  }
+}
