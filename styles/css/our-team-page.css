@@ -15,19 +15,19 @@
 }
 
 .our-team-desc span {
-  color: #12715b;
+  color: #0F604D;
 }
 .our-team-desc p {
   font-size: 1.125rem;
 }
 
 .btn-our-team {
-  background-color: #12715b;
+  background-color: #0F604D;
   color: white;
 }
 
 .btn-our-team:hover {
-  background-color: #0f604d;
+  background-color: #0c4e3e;
   color: white;
 }
 
@@ -35,7 +35,7 @@
   border: none;
 }
 .cards span {
-  color: #12715b;
+  color: #0F604D;
   font-size: 1.125rem;
 }
 
@@ -59,10 +59,10 @@
   opacity: 0.8;
 }
 .questions a {
-  color: #12715b;
+  color: #0F604D;
 }
 .questions a:hover {
-  color: #0f604d;
+  color: #0c4e3e;
 }
 
 .hiring div {

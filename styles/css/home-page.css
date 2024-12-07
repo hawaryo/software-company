@@ -11,7 +11,7 @@
   src: url("../../Assets/fonts/Graphik-Semibold.otf") format("opentype");
 }
 main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .insightsSection .introContainer .postsBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
-  background-color: #12715b;
+  background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
   font-weight: 505;
@@ -52,7 +52,7 @@ main .featuresContainer .featuresSectionIntro, main .featuresContainer .features
 }
 main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon, main .insightsSection .introContainer .insightsIntro .icon {
   font-family: "Graphik-Regular", sans-serif;
-  color: #12715b;
+  color: #0F604D;
   font-size: 1rem;
   font-weight: bold;
   padding: 4px 24px;
@@ -75,7 +75,7 @@ main .pricingContainer .pricingCards .pricingCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
   padding: 56px 64px 56px 64px;
   border-radius: 16px;
   max-width: 500px;
@@ -84,7 +84,7 @@ main .pricingContainer .pricingCards .pricingCard .label {
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #12715b;
+  color: #0F604D;
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
@@ -92,7 +92,7 @@ main .pricingContainer .pricingCards .pricingCard .label {
   border-radius: 8px;
 }
 main .pricingContainer .pricingCards .pricingCard .title {
-  color: #12715b;
+  color: #0F604D;
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -141,7 +141,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   gap: 32px;
   margin: 32px auto;
   text-align: center;
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
   align-items: center;
   padding: 48px 40px;
   border-radius: 16px;
@@ -153,7 +153,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
 } */
 .headerMain {
   padding: 32px;
-  background: linear-gradient(white, #f5eee9);
+  background: linear-gradient(white, #F5EEE9);
 }
 .headerMain .headFristSection {
   display: flex;
@@ -183,7 +183,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   padding: 24px;
 }
 .headerMain .headFristSection .headerContent .getDemoBtn {
-  background-color: #12715b;
+  background-color: #0F604D;
   color: white;
   border: none;
   border-radius: 8px;
@@ -261,7 +261,7 @@ main .featuresContainer .mainFeatures .FeatureContainer {
   padding: 32px;
 }
 main .featuresContainer .mainFeatures .FeatureContainer:nth-child(even) {
-  background: linear-gradient(white, #f5eee9);
+  background: linear-gradient(white, #F5EEE9);
 }
 main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
   display: flex;
@@ -271,7 +271,7 @@ main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
   width: 50px;
   padding: 12px;
   border-radius: 12px;
-  background-color: #12715b;
+  background-color: #0F604D;
 }
 @media screen and (min-width: 780px) {
   main .featuresContainer .mainFeatures .FeatureContainer p {
@@ -280,14 +280,14 @@ main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
 }
 main .featuresContainer .mainFeatures .FeatureContainer a {
   text-decoration: none;
-  color: #12715b;
+  color: #0F604D;
   font-size: 1rem;
 }
 main .featuresContainer .featuresSectionOutro .demoBtn {
   margin-right: 8px;
 }
 main .detailsContainer {
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
 }
 main .detailsContainer .detailFirstSection {
   display: flex;
@@ -315,7 +315,7 @@ main .detailsContainer .detailFirstSection .details h3 {
 }
 main .detailsContainer .detailFirstSection .details .accordion-body,
 main .detailsContainer .detailFirstSection .details .accordion-button {
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
 }
 main .detailsContainer .detailFirstSection .details .accordion-button {
   font-family: "Graphik-Medium", sans-serif;
@@ -331,7 +331,7 @@ main .detailsContainer .detailFirstSection .details .accordionIcon {
   height: 40px;
   padding: 8px;
   border-radius: 50%;
-  background-color: #12715b;
+  background-color: #0F604D;
 }
 main .detailsContainer .detailSecondSection {
   display: flex;
@@ -372,7 +372,7 @@ main .detailsContainer .detailSecondSection .details .featuresList .featureIcon 
   height: 50px;
   padding: 8px;
   border-radius: 50%;
-  background-color: #12715b;
+  background-color: #0F604D;
 }
 main .detailsContainer .detailSecondSection .bottomImage {
   max-width: 100%;
@@ -416,7 +416,7 @@ main .feedbacksection a {
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
-  color: #12715b;
+  color: #0F604D;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -435,7 +435,7 @@ main .questionSection .questionCard {
   gap: 8px;
 }
 main .questionSection .questionCard img {
-  border: 2px solid #f5eee9;
+  border: 2px solid #F5EEE9;
   border-radius: 24px;
   margin-right: -20px;
 }
@@ -488,7 +488,7 @@ main .teamSection .hiring .hiringDescription {
   max-width: 400px;
 }
 main .insightsSection {
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
 }
 main .insightsSection .introContainer {
   display: flex;
@@ -526,7 +526,7 @@ main .insightsSection .postsContainer .postCard .postDescription {
 }
 main .insightsSection .postsContainer .postCard .postLink {
   text-decoration: none;
-  color: #12715b;
+  color: #0F604D;
   font-size: 1.1rem;
   font-weight: bold;
 }
