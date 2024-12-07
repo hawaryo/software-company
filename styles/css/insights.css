@@ -17,7 +17,6 @@
 
 .second-a {
   color: #0f604d;
-  background-color: #f5eee9;
 }
 
 .rounded-avatar {
@@ -36,7 +35,7 @@
 
 .card,
 .news-letter, .top-section {
-  background-color: #f5eee9;
+  background-color: #F5EEE9;
 }
 
 .hover-effect {
@@ -67,10 +66,6 @@ h2 {
   font-size: 2.5rem;
 }
 
-.subscription-form ::-moz-placeholder {
-  color: #999999;
-}
-
 .subscription-form ::placeholder {
   color: #999999;
-}/*# sourceMappingURL=insights.css.map */
+}
