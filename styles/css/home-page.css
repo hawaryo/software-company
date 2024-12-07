@@ -10,7 +10,7 @@
   font-family: "Graphik-Semibold";
   src: url("../../Assets/fonts/Graphik-Semibold.otf") format("opentype");
 }
-main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .insightsSection .introContainer .postsBtn, footer .footerhead .newsLetterForm .newsLetterBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
+main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .questionCard .questionBtn, main .insightsSection .introContainer .postsBtn, main .pricingContainer .pricingCards .pricingCard .pricingBtn {
   background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
@@ -22,7 +22,7 @@ main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .
   transition: 0.5s;
   width: 150px;
 }
-main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .insightsSection .introContainer .postsBtn:hover, footer .footerhead .newsLetterForm .newsLetterBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
+main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .insightsSection .introContainer .postsBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
   background-color: #0c4e3e;
 }
 
@@ -529,68 +529,4 @@ main .insightsSection .postsContainer .postCard .postLink {
   color: #0F604D;
   font-size: 1.1rem;
   font-weight: bold;
-}
-
-footer {
-  background-color: #0E0E0F;
-  color: white;
-  padding: 32px;
-}
-footer a {
-  text-decoration: none;
-  color: white;
-}
-footer li {
-  list-style-type: none;
-}
-footer hr {
-  width: 100%;
-  color: rgba(255, 255, 255, 0.7019607843);
-}
-footer i {
-  color: white;
-}
-footer .footerhead {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-footer .footerhead .footerIntroTitle {
-  font-family: "Graphik-Semibold", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-footer .footerhead .footerIntroDescription {
-  color: rgba(255, 255, 255, 0.7019607843);
-  font-family: "Graphik-Regular", sans-serif;
-  font-size: 1.25rem;
-  max-width: 700px;
-}
-footer .footerhead .newsLetterForm .newsLetterEmail {
-  width: 250;
-  height: 40px;
-  border: 1px solid #d8d8d8;
-  border-radius: 8px;
-  margin-right: 4px;
-  padding: 20px;
-}
-footer .footBody {
-  display: flex;
-  justify-content: space-around;
-}
-footer .footBody .bodyCard {
-  max-width: 320px;
-}
-footer .footBody .linkListsContainer {
-  display: flex;
-  gap: 32px;
-}
-footer .footButtom {
-  display: flex;
-  justify-content: space-between;
-}
-footer .footButtom .socailLink {
-  display: flex;
-  gap: 16px;
 }
