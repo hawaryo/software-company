@@ -1,0 +1,172 @@
+@use "./color" as color;
+@use "./font" as font;
+
+$SecondaryColor: #212529B3;
+
+body {
+    font-family: font.$primary-font;
+}
+
+.contactHead {
+    width: 90%;
+    margin-top: 5rem;
+
+    h1 {
+        font-size: 3.5rem;
+        color: color.$secondary-color;
+        font-weight: 700;
+    }
+
+    p {
+        color: $SecondaryColor;
+        font-size: 1rem;
+    }
+}
+
+.contactCard {
+    width: 85%;
+
+    img {
+        filter: brightness(80%);
+    }
+
+    .card {
+        background-color: color.$tertiary-color;
+    }
+
+    .pageContent {
+        bottom: 12rem;
+        width: 70%;
+    }
+}
+
+.contactForm {
+    p {
+        font-size: 1rem;
+    }
+
+    .mainContent {
+        color: $SecondaryColor;
+
+    }
+
+    input {
+        &::placeholder {
+            font-size: 0.9rem;
+        }
+    }
+
+    textarea {
+        min-height: 11rem !important;
+
+        &::placeholder {
+            font-size: 0.9rem;
+        }
+    }
+
+    .width-47 {
+        width: 47%
+    }
+
+    button {
+        background-color: color.$quaternary-color;
+
+        &:hover {
+            background-color: #116451;
+
+        }
+
+    }
+
+    a {
+        color: color.$quaternary-color;
+    }
+}
+
+.otherWays {
+    h2 {
+        color: color.$secondary-color;
+    }
+
+    .otherWays-card {
+        background-color: color.$tertiary-color;
+        border-radius: 1rem;
+
+        a {
+            color: color.$quaternary-color
+        }
+    }
+
+    p {
+        color: color.$secondary-color;
+        font-size: 0.89rem;
+    }
+}
+
+.askedQuestions {
+    h2 {
+        color: color.$secondary-color;
+
+    }
+
+    .accordion {
+        background-color: color.$tertiary-color ;
+        --bs-accordion-bg: none;
+
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: color.$secondary-color;
+        background-color: color.$tertiary-color;
+        box-shadow: none
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.96rem;
+    }
+
+}
+
+.toggle-icon {
+    transition: transform 0.2s ease;
+}
+
+
+.gainValuable {
+    background-color: color.$tertiary-color;
+
+    .cardTitle {
+        position: absolute;
+        top: 23px;
+        left: 26px;
+        background-color: color.$quaternary-color;
+        font-size: 0.8rem;
+    }
+
+    .avtar {
+        border-radius: 50%;
+        width: 1.5rem;
+    }
+
+    .avtarContent {
+        font-size: 0.8rem;
+    }
+
+    a {
+        color: color.$quaternary-color;
+    }
+
+}
+
+.scaleImage {
+
+    &:hover img {
+        transform: scale(1.03);
+        transition: transform 0.8s ease;
+    }
+
+}
