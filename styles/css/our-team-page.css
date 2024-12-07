@@ -1,20 +1,17 @@
 @font-face {
   font-family: "Graphik-Regular";
-  src: url("/Assets/fonts/Graphik-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../../Assets/fonts/Graphik-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "Graphik-Medium";
-  src: url("/Assets/fonts/Graphik-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
+  src: url("../../Assets/fonts/Graphik-Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "Graphik-Semibold";
-  src: url("/Assets/fonts/Graphik-Semibold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
+  src: url("../../Assets/fonts/Graphik-Semibold.otf") format("opentype");
+}
+.intro {
+  margin-top: 128px;
 }
 
 .our-team-desc span {
@@ -81,4 +78,4 @@
 .hiring .btn-hiring:hover {
   cursor: pointer;
   border: 1px solid rgba(128, 128, 128, 0.7098039216);
-}/*# sourceMappingURL=our-team-page.css.map */
+}

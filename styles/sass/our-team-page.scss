@@ -2,14 +2,21 @@
 @use "./font" as font;
 
 
+
+.intro {
+  margin-top: 128px;
+}
+
 .our-team-desc {
   span {
     color: color.$quaternary-color;
   }
+
   p {
     font-size: 1.125rem;
   }
 }
+
 .btn-our-team {
   background-color: color.$quaternary-color;
   color: color.$primary-color;
@@ -24,6 +31,7 @@
   .card {
     border: none;
   }
+
   span {
     color: color.$quaternary-color;
     font-size: 1.125rem;
@@ -38,6 +46,7 @@
   .faq-item.active .answer {
     display: block;
   }
+
   .answer {
     display: none;
     opacity: 0.8;
@@ -47,6 +56,7 @@
   h5 {
     padding-top: 25px;
   }
+
   .question:hover {
     cursor: pointer;
     opacity: 0.8;
@@ -55,6 +65,7 @@
   a {
     color: color.$quaternary-color;
   }
+
   a:hover {
     color: color.$quinary-color;
   }
