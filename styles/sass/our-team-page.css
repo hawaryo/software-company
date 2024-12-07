@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("../../Assets/fonts/Graphik-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("../../Assets/fonts/Graphik-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Semibold";
+  src: url("../../Assets/fonts/Graphik-Semibold.otf") format("opentype");
+}
+.intro {
+  margin-top: 128px;
+}
+
+.our-team-desc span {
+  color: #0F604D;
+}
+.our-team-desc p {
+  font-size: 1.125rem;
+}
+
+.btn-our-team {
+  background-color: #0F604D;
+  color: white;
+}
+
+.btn-our-team:hover {
+  background-color: #0c4e3e;
+  color: white;
+}
+
+.cards .card {
+  border: none;
+}
+.cards span {
+  color: #0F604D;
+  font-size: 1.125rem;
+}
+
+.questions {
+  border-top: 1px solid rgba(128, 128, 128, 0.2117647059);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2117647059);
+}
+.questions .faq-item.active .answer {
+  display: block;
+}
+.questions .answer {
+  display: none;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+.questions h5 {
+  padding-top: 25px;
+}
+.questions .question:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.questions a {
+  color: #0F604D;
+}
+.questions a:hover {
+  color: #0c4e3e;
+}
+
+.hiring div {
+  max-width: 450px;
+}
+.hiring p {
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+.hiring .btn-hiring {
+  border: 1px solid rgba(128, 127, 127, 0.3607843137);
+}
+.hiring .btn-hiring:hover {
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.7098039216);
+}/*# sourceMappingURL=our-team-page.css.map */
