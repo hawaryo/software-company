@@ -9,16 +9,24 @@
    git clone   https://github.com/hawaryo/software-company.git
    ```
 2. Navigate into the project directory:
+
    ```bash
    cd software-company
    ```
-3. Install dependencies:
+
+3. Ensure you are on the `Level-one` branch (Ensure that "Level One" is visible in the bottom-left corner of Visual Studio Code):
+
+   ```bash
+   git switch Level-one
+   ```
+
+4. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. To compile sass files to css (css files will appear under styles/css):
+5. To Watch and compile sass files to css (css files will appear under styles/css):
    ```bash
     npm run build-css
    ```
@@ -48,4 +56,15 @@
    git push origin feat/adding-footer
    ```
 
-### Note: always keep you eye on the branch you are working on.
+### Note: Always keep an eye on the branch you are working on.
+
+
+----------
+
+**Before pushing your changes, ensure your local repository is up-to-date with the remote:**
+
+```bash
+git pull
+```
+
+This ensures you avoid conflicts and are working with the latest version of the code.

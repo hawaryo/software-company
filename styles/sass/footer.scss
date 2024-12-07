@@ -1,0 +1,90 @@
+@use "./color" as color;
+@use "./font" as font;
+@use "./buttons";
+@use "./textCards";
+
+
+
+footer {
+    background-color: #0E0E0F;
+    color: color.$primary-color;
+    padding: 32px;
+
+    a {
+        text-decoration: none;
+        color: color.$primary-color;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    hr {
+        width: 100%;
+        color: color.$primary-color-dark;
+    }
+
+    i {
+        color: color.$primary-color;
+    }
+
+    .footerhead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .footerIntroTitle {
+            font-family: font.$tertiary-font;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .footerIntroDescription {
+            color: color.$primary-color-dark;
+            font-family: font.$primary-font;
+            font-size: 1.25rem;
+            max-width: 700px;
+        }
+
+        .newsLetterForm {
+
+            .newsLetterEmail {
+                width: 250;
+                height: 40px;
+                border: 1px solid #d8d8d8;
+                border-radius: 8px;
+                margin-right: 4px;
+                padding: 20px;
+            }
+
+            .newsLetterBtn {
+                @extend %primaryButton;
+            }
+        }
+    }
+
+    .footBody {
+        display: flex;
+        justify-content: space-around;
+
+        .bodyCard {
+            max-width: 320px;
+        }
+
+        .linkListsContainer {
+            display: flex;
+            gap: 32px;
+        }
+    }
+
+    .footButtom {
+        display: flex;
+        justify-content: space-between;
+
+        .socailLink {
+            display: flex;
+            gap: 16px;
+        }
+    }
+}
