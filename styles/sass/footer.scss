@@ -67,6 +67,7 @@ footer {
     .footBody {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
 
         .bodyCard {
             max-width: 320px;
@@ -75,6 +76,7 @@ footer {
         .linkListsContainer {
             display: flex;
             gap: 32px;
+            flex-wrap: wrap;
         }
     }
 

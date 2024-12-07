@@ -73,6 +73,7 @@ footer .footerhead .newsLetterForm .newsLetterEmail {
 footer .footBody {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 footer .footBody .bodyCard {
   max-width: 320px;
@@ -80,6 +81,7 @@ footer .footBody .bodyCard {
 footer .footBody .linkListsContainer {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
 }
 footer .footButtom {
   display: flex;
