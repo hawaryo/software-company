@@ -147,7 +147,7 @@ main {
       .FeatureContainer {
         font-family: font.$primary-font;
         padding: 32px;
-
+         border-radius: 4px;
         &:nth-child(even) {
           background: linear-gradient(color.$primary-color,
               color.$tertiary-color );

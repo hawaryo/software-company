@@ -29,6 +29,10 @@ footer {
   background-color: #0E0E0F;
   color: white;
   padding: 48px;
+  /* @media screen and (min-width: 1900px){
+      display: flex;
+      flex-direction: column;
+  } */
 }
 footer a {
   text-decoration: none;
@@ -43,6 +47,7 @@ footer ul li {
 footer hr {
   width: 100%;
   color: rgba(255, 255, 255, 0.7019607843);
+  max-width: 1900px;
 }
 footer i {
   color: white;
@@ -52,6 +57,7 @@ footer .footerhead {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1900px;
 }
 footer .footerhead .footerIntroTitle {
   font-family: "Graphik-Semibold", sans-serif;
@@ -75,6 +81,7 @@ footer .footerhead .newsLetterForm .newsLetterBtn {
   margin-top: 8px;
 }
 footer .footBody {
+  max-width: 1900px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -91,7 +98,7 @@ footer .footBody .bodyCard a {
 }
 footer .footBody .linkListsContainer {
   display: flex;
-  gap: 64px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 footer .footBody .linkListsContainer .ProductList {
@@ -106,6 +113,7 @@ footer .footBody .linkListsContainer .ProductList .listTitle {
   font-size: 0.9rem;
 }
 footer .footButtom {
+  max-width: 1900px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -114,4 +122,33 @@ footer .footButtom {
 footer .footButtom .socailLink {
   display: flex;
   gap: 16px;
+}
+footer footer {
+  background-color: #0E0E0F;
+  color: white;
+  padding: 48px;
+  max-width: 1900px; /* Limit max width to 1900px */
+  margin: 0 auto; /* Center the content horizontally */
+}
+@media screen and (min-width: 1900px) {
+  footer footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+  }
+  footer .footerhead,
+  footer .footBody,
+  footer .footButtom {
+    width: 100%; /* Ensure sections take full width */
+    text-align: center; /* Center the content inside the sections */
+  }
+  footer .footerIntroTitle,
+  footer .footerIntroDescription,
+  footer .bodyCard,
+  footer .ProductList {
+    text-align: center; /* Center text for consistency */
+  }
+  footer .socailLink {
+    justify-content: center; /* Center the social links */
+  }
 }

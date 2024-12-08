@@ -10,6 +10,10 @@ footer {
     color: color.$primary-color;
     padding: 48px;
 
+    /* @media screen and (min-width: 1900px){
+    display: flex;
+    flex-direction: column;
+} */
     a {
         text-decoration: none;
         color: color.$primary-color;
@@ -27,6 +31,7 @@ footer {
     hr {
         width: 100%;
         color: color.$primary-color-dark;
+        max-width: 1900px;
     }
 
     i {
@@ -38,6 +43,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        max-width: 1900px;
 
         .footerIntroTitle {
             font-family: font.$tertiary-font;
@@ -71,6 +77,7 @@ footer {
     }
 
     .footBody {
+        max-width: 1900px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -82,14 +89,15 @@ footer {
                 margin-top: 12px;
                 font-family: font.$primary-font;
             }
-            a{
+
+            a {
                 margin-bottom: 8px;
             }
         }
 
         .linkListsContainer {
             display: flex;
-            gap: 64px;
+            gap: 80px;
             flex-wrap: wrap;
 
             .ProductList {
@@ -112,6 +120,7 @@ footer {
     }
 
     .footButtom {
+        max-width: 1900px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -120,7 +129,43 @@ footer {
         .socailLink {
             display: flex;
             gap: 16px;
-            
+
         }
     }
+
+footer {
+  background-color: #0E0E0F;
+  color: color.$primary-color;
+  padding: 48px;
+  max-width: 1900px; /* Limit max width to 1900px */
+  margin: 0 auto; /* Center the content horizontally */
 }
+
+@media screen and (min-width: 1900px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+  }
+
+  .footerhead,
+  .footBody,
+  .footButtom {
+    width: 100%; /* Ensure sections take full width */
+    text-align: center; /* Center the content inside the sections */
+  }
+
+  .footerIntroTitle,
+  .footerIntroDescription,
+  .bodyCard,
+  .ProductList {
+    text-align: center; /* Center text for consistency */
+  }
+
+  .socailLink {
+    justify-content: center; /* Center the social links */
+  }
+}
+
+}
+

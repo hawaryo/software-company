@@ -273,6 +273,7 @@ main .featuresContainer .mainFeatures {
 main .featuresContainer .mainFeatures .FeatureContainer {
   font-family: "Graphik-Regular", sans-serif;
   padding: 32px;
+  border-radius: 4px;
 }
 main .featuresContainer .mainFeatures .FeatureContainer:nth-child(even) {
   background: linear-gradient(white, #F5EEE9);
