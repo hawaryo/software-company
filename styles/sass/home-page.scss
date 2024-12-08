@@ -19,23 +19,31 @@
 
     .headerContent {
       h1 {
+        font-family: font.$primary-font;
         font-size: 4rem;
         margin-bottom: 16px;
+
+        @media screen and (max-width: 500px) {
+          font-size: 3rem;
+
+        }
       }
 
       .description {
+        max-width: 500px;
+        font-family: font.$primary-font;
         font-size: 1.25rem;
         margin-bottom: 24px;
       }
 
       .email {
-        width: 250;
+
         height: 40px;
         border: 1px solid #d8d8d8;
         border-radius: 8px;
         margin-bottom: 8px;
         margin-right: 4px;
-        padding: 24px;
+        padding: 20px;
       }
 
       .getDemoBtn {
@@ -70,13 +78,13 @@
       }
 
       .countriesImg {
-        top: 250px;
+        top: 210px;
         left: 50px;
         transform: translate(-50%, -50%);
       }
 
       .accountImg {
-        bottom: 200px;
+        bottom: 150px;
         right: 50px;
         transform: translate(50%, 50%);
       }
@@ -90,10 +98,19 @@
 
   .brands {
     text-align: center;
-    margin-top: 32px;
+    margin-top: 64px;
+    margin-bottom: 32px;
 
-    img {
-      margin: 0 16px;
+    .brandLogos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    p {
+      margin-bottom: 24px;
     }
   }
 }
@@ -169,6 +186,7 @@ main {
 
       .trialBtn {
         @extend %primaryButton;
+
       }
     }
   }
@@ -206,12 +224,15 @@ main {
         .accordion-body,
         .accordion-button {
           background-color: color.$tertiary-color;
+
+
         }
 
         .accordion-button {
           font-family: font.$secondary-font;
           font-weight: 500;
           font-size: 1.5rem;
+          box-shadow: none;
         }
 
         .accordionIcon {
@@ -284,6 +305,8 @@ main {
 
   /* pricing section */
   .pricingContainer {
+    padding: 8px;
+
     .pricingIntro {
       @extend %PrimaryTextCard;
     }
@@ -461,6 +484,8 @@ main {
 
       .hiringBtn {
         @extend %secondaryButton;
+        width: fit-content;
+        padding: 8px;
       }
     }
   }
@@ -468,6 +493,7 @@ main {
   /*insights section */
   .insightsSection {
     background-color: color.$tertiary-color;
+    padding: 32px 16px 64px 16px;
 
     .introContainer {
       display: flex;
@@ -507,6 +533,7 @@ main {
         .postImg {
           border-radius: 12px;
           margin-bottom: 16px;
+          max-width: 100%;
         }
 
         .postDescription {
@@ -524,4 +551,3 @@ main {
   }
 
 }
-

@@ -14,13 +14,12 @@ main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .
   background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
-  font-weight: 505;
   font-size: 1rem;
   border: 0;
   padding: 8px 4px;
   border-radius: 8px;
   transition: 0.5s;
-  width: 150px;
+  min-width: 150px;
 }
 main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .insightsSection .introContainer .postsBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
   background-color: #0c4e3e;
@@ -31,13 +30,12 @@ main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
   color: #000000;
   font-family: "Graphik-Regular", sans-serif;
-  font-weight: 505;
   font-size: 1rem;
   border: 1px solid #e2e2e2;
-  padding: 8px 4px;
+  padding: 8px;
   border-radius: 8px;
   transition: 0.5s;
-  width: 150px;
+  min-width: 150px;
 }
 main .featuresContainer .featuresSectionOutro .demoBtn:hover, main .pricingContainer .comparePlans .compareBtn:hover, main .teamSection .hiring .hiringBtn:hover {
   border: 1px solid rgb(169, 169, 169);
@@ -49,6 +47,7 @@ main .featuresContainer .featuresSectionIntro, main .featuresContainer .features
   align-items: center;
   margin: 32px 0;
   padding: 8px;
+  text-align: center;
 }
 main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon, main .insightsSection .introContainer .insightsIntro .icon {
   font-family: "Graphik-Regular", sans-serif;
@@ -166,21 +165,28 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   max-width: 600px;
 }
 .headerMain .headFristSection .headerContent h1 {
+  font-family: "Graphik-Regular", sans-serif;
   font-size: 4rem;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 500px) {
+  .headerMain .headFristSection .headerContent h1 {
+    font-size: 3rem;
+  }
+}
 .headerMain .headFristSection .headerContent .description {
+  max-width: 500px;
+  font-family: "Graphik-Regular", sans-serif;
   font-size: 1.25rem;
   margin-bottom: 24px;
 }
 .headerMain .headFristSection .headerContent .email {
-  width: 250;
   height: 40px;
   border: 1px solid #d8d8d8;
   border-radius: 8px;
   margin-bottom: 8px;
   margin-right: 4px;
-  padding: 24px;
+  padding: 20px;
 }
 .headerMain .headFristSection .headerContent .getDemoBtn {
   background-color: #0F604D;
@@ -208,12 +214,12 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   }
 }
 .headerMain .headFristSection .heroImgContainer .countriesImg {
-  top: 250px;
+  top: 210px;
   left: 50px;
   transform: translate(-50%, -50%);
 }
 .headerMain .headFristSection .heroImgContainer .accountImg {
-  bottom: 200px;
+  bottom: 150px;
   right: 50px;
   transform: translate(50%, 50%);
 }
@@ -223,10 +229,18 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
 }
 .headerMain .brands {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 64px;
+  margin-bottom: 32px;
 }
-.headerMain .brands img {
-  margin: 0 16px;
+.headerMain .brands .brandLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.headerMain .brands p {
+  margin-bottom: 24px;
 }
 
 main {
@@ -321,6 +335,7 @@ main .detailsContainer .detailFirstSection .details .accordion-button {
   font-family: "Graphik-Medium", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
+  box-shadow: none;
 }
 main .detailsContainer .detailFirstSection .details .accordionIcon {
   display: flex;
@@ -376,6 +391,9 @@ main .detailsContainer .detailSecondSection .details .featuresList .featureIcon 
 }
 main .detailsContainer .detailSecondSection .bottomImage {
   max-width: 100%;
+}
+main .pricingContainer {
+  padding: 8px;
 }
 main .pricingContainer .pricingCards {
   display: flex;
@@ -487,8 +505,13 @@ main .teamSection .hiring .hiringDescription {
   text-align: center;
   max-width: 400px;
 }
+main .teamSection .hiring .hiringBtn {
+  width: fit-content;
+  padding: 8px;
+}
 main .insightsSection {
   background-color: #F5EEE9;
+  padding: 32px 16px 64px 16px;
 }
 main .insightsSection .introContainer {
   display: flex;
@@ -520,6 +543,7 @@ main .insightsSection .postsContainer {
 main .insightsSection .postsContainer .postCard .postImg {
   border-radius: 12px;
   margin-bottom: 16px;
+  max-width: 100%;
 }
 main .insightsSection .postsContainer .postCard .postDescription {
   max-width: 400px;
