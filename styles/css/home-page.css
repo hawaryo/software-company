@@ -16,7 +16,7 @@ main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .
   font-family: "Graphik-Regular", sans-serif;
   font-size: 1rem;
   border: 0;
-  padding: 8px 4px;
+  padding: 8px;
   border-radius: 8px;
   transition: 0.5s;
   min-width: 150px;
@@ -303,11 +303,25 @@ main .featuresContainer .featuresSectionOutro .demoBtn {
 main .detailsContainer {
   background-color: #F5EEE9;
 }
+@media screen and (min-width: 1900px) {
+  main .detailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 main .detailsContainer .detailFirstSection {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+  main .detailsContainer .detailFirstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 main .detailsContainer .detailFirstSection .topImage {
   max-width: 100%;
@@ -354,6 +368,14 @@ main .detailsContainer .detailSecondSection {
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
+  max-width: 1900px;
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+  main .detailsContainer .detailSecondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 main .detailsContainer .detailSecondSection .details {
   padding: 64px;
