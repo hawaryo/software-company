@@ -15,7 +15,7 @@ class navbar extends HTMLElement {
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/index.html">
             <img
               src="./Assets/images/home-page-images/Header-images/logo.svg"
               alt="logo"
@@ -36,18 +36,17 @@ class navbar extends HTMLElement {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto ms-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Product</a
-                >
+                <a class="nav-link active" aria-current="page" href="/contactPage.html"
+                  >Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
+                <a class="nav-link" href="/insights.html">Insights</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Learn</a>
+                <a class="nav-link" href="/our-team.html">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="/careers.html">Careers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Buy Now</a>
