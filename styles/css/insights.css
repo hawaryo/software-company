@@ -28,7 +28,6 @@
 .card {
   position: relative;
 }
-
 .card .badge {
   position: absolute;
   top: 23px;
@@ -44,7 +43,6 @@
 .hover-effect {
   transition: transform 0.3s ease;
 }
-
 .hover-effect:hover {
   transform: scale(1.05) translateY(-2px);
 }
@@ -70,10 +68,6 @@ h2 {
   font-size: 2.5rem;
 }
 
-.subscription-form ::-moz-placeholder {
-  color: #999999;
-}
-
 .subscription-form ::placeholder {
   color: #999999;
 }
@@ -81,8 +75,7 @@ h2 {
 .stars-container {
   position: relative;
 }
-
 .stars-container .star-one {
   position: absolute;
   right: 0;
-} 
+}

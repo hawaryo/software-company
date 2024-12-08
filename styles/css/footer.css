@@ -21,7 +21,6 @@ footer .footerhead .newsLetterForm .newsLetterBtn {
   transition: 0.5s;
   min-width: 150px;
 }
-
 footer .footerhead .newsLetterForm .newsLetterBtn:hover {
   background-color: #0c4e3e;
 }
@@ -31,7 +30,6 @@ footer {
   color: white;
   padding: 48px;
 }
-
 footer a {
   text-decoration: none;
   color: white;
@@ -42,36 +40,30 @@ footer ul {
 footer ul li {
   list-style-type: none;
 }
-
 footer hr {
   width: 100%;
   color: rgba(255, 255, 255, 0.7019607843);
 }
-
 footer i {
   color: white;
 }
-
 footer .footerhead {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-
 footer .footerhead .footerIntroTitle {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 }
-
 footer .footerhead .footerIntroDescription {
   color: rgba(255, 255, 255, 0.7019607843);
   font-family: "Graphik-Regular", sans-serif;
   font-size: 1.25rem;
   max-width: 700px;
 }
-
 footer .footerhead .newsLetterForm .newsLetterEmail {
   height: 40px;
   border: 1px solid #d8d8d8;
@@ -87,7 +79,6 @@ footer .footBody {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 footer .footBody .bodyCard {
   max-width: 320px;
 }
@@ -120,8 +111,7 @@ footer .footButtom {
   flex-wrap: wrap;
   color: rgba(255, 255, 255, 0.7019607843);
 }
-
 footer .footButtom .socailLink {
   display: flex;
   gap: 16px;
-} 
+}

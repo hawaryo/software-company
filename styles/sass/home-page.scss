@@ -18,6 +18,8 @@
     gap: 64px;
 
     .headerContent {
+      max-width: 600px;
+
       h1 {
         font-family: font.$primary-font;
         font-size: 4rem;
@@ -54,7 +56,7 @@
         padding: 8px 32px;
       }
 
-      max-width: 600px;
+
 
       .reviews {
         .reviewers img {
