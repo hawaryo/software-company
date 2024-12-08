@@ -8,15 +8,20 @@
 footer {
     background-color: #0E0E0F;
     color: color.$primary-color;
-    padding: 32px;
+    padding: 48px;
 
     a {
         text-decoration: none;
         color: color.$primary-color;
     }
 
-    li {
-        list-style-type: none;
+    ul {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+
+        }
     }
 
     hr {
@@ -50,7 +55,7 @@ footer {
         .newsLetterForm {
 
             .newsLetterEmail {
-                width: 250;
+
                 height: 40px;
                 border: 1px solid #d8d8d8;
                 border-radius: 8px;
@@ -60,31 +65,62 @@ footer {
 
             .newsLetterBtn {
                 @extend %primaryButton;
+                margin-top: 8px;
             }
         }
     }
 
     .footBody {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
         .bodyCard {
             max-width: 320px;
+
+            p {
+                margin-top: 12px;
+                font-family: font.$primary-font;
+            }
+            a{
+                margin-bottom: 8px;
+            }
         }
 
         .linkListsContainer {
             display: flex;
-            gap: 32px;
+            gap: 64px;
+            flex-wrap: wrap;
+
+            .ProductList {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                font-family: font.$secondary-font;
+                font-weight: 500;
+
+                .listTitle {
+                    color: color.$primary-color-dark;
+
+                    font-size: 0.9rem;
+
+                }
+            }
         }
+
+
     }
 
     .footButtom {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        color: color.$primary-color-dark;
 
         .socailLink {
             display: flex;
             gap: 16px;
+            
         }
     }
 }

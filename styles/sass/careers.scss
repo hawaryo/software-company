@@ -1,0 +1,331 @@
+/* start global rules */
+
+@use "./color" as color;
+@use "./font" as font;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: font.$primary-font
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* end global rules */
+
+/* Start Career Hero*/
+.section {
+  margin-block: 4rem;
+}
+.careers {
+  text-align: center;
+  background-color: color.$tertiary-color;
+  position: relative;
+  max-height: 450px;
+  .container {
+    .career-top {
+      max-width: 50rem;
+      margin: 0 auto;
+      h1 {
+        font-size: 3rem;
+        letter-spacing: -2px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        opacity: 0.8;
+      }
+    }
+    .career-bottom {
+        overflow: hidden;
+        // border-radius: 20px;
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        width: 75rem;
+        height: 37rem;
+        object-fit: cover;
+        max-height: 100%;
+            &:hover {
+              transform: scale(1.02);
+              transition: 0.3s ease-in-out all;
+            }
+
+      }
+    }
+  }
+}
+/* End Career Hero*/
+
+/* Start career benefits Hero*/
+.benefits {
+  margin-top: 27rem;
+  text-align: left;
+  .container {
+    max-width: 50rem;
+    margin: 0 auto;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    .career-benefits-top {
+      max-width: 50rem;
+    }
+    .career-benefits-bottom {
+      .benefit {
+        padding: 10px;
+        padding-left: 0;
+        i {
+          color: color.$quaternary-color;
+          margin-right: 5px;
+        }
+        span {
+        }
+      }
+    }
+  }
+}
+
+/* End career benefits Hero*/
+
+/* Start career openings Hero*/
+.openings {
+  background-color: color.$tertiary-color;
+  .container {
+    max-width: 55rem;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: -2px;
+      padding-block: 3rem;
+      font-weight: bold;
+    }
+    .cards {
+      .card {
+        padding: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 20PX;
+        border: none;
+        .details {
+          h5 {
+            font-size: 1rem;
+            font-weight: bold;
+          }
+          span {
+            font-size: 1rem;
+            opacity: 0.7;
+            font-size: 0.9rem;
+          }
+        }
+        a {
+          align-self: flex-end;
+          color: color.$quaternary-color;
+          font-weight: bold;
+          text-decoration: none;
+          border-bottom: 2px solid color.$tertiary-color;
+          margin-top: 10px;
+          font-size: 0.85rem;
+          padding-bottom: 5px;
+          h5 {
+          }
+          span {
+          }
+        }
+      }
+    }
+  }
+}
+
+/* End career openings Hero*/
+
+/* Start feedbacks Hero*/
+
+.feedbacks {
+  // background-color: color.$tertiary-color;
+  text-align: center;
+  .container {
+    max-width: 55rem;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: -2px;
+      padding-bottom: 3rem;
+      font-weight: bold;
+    }
+    .cards {
+      .card {
+        padding: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        img {
+          width: 130px;
+        }
+        q {
+          opacity: 0.7;
+          margin-block: 20px;
+          font-size: 1.1rem;
+        }
+        div.customer {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 35px;
+            border-radius: 50%;
+          }
+          div.customer-details {
+            margin-top: 10px;
+            line-height: 0.4rem;
+            h6 {
+              font-weight: bold;
+            }
+            p {
+              font-size: .8rem;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+    a {
+      text-align: center;
+      color: color.$quaternary-color;
+      text-decoration: none;
+      font-weight: bold;
+      span {
+
+      }
+      i {
+
+      }
+    }
+  }
+}
+
+/* End feedbacks Hero*/
+
+/* Start trusted_brands Hero*/
+.trusted_brands {
+
+  .container {
+    max-width: 55rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+/* End trusted_brands Hero*/
+
+
+/* Start blog_posts Hero*/
+.blog_posts {
+  background-color: color.$tertiary-color;
+  text-align: center;
+  .container {
+    max-width: 75rem;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: -2px;
+      padding-block: 3rem;
+      font-weight: bold;
+    }
+    .cards {
+      .card {
+        padding: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        border-radius: 20px;
+        div.fixed {
+          position: absolute;
+          background-color: color.$quaternary-color;
+          color: #fff;
+          margin: 10px;
+          padding: 5px;
+          border-radius: 5px;
+          font-weight: bold;
+          z-index: 3;
+        }
+        a {
+          overflow: hidden;
+          border-radius: 20px;
+
+          img {
+            max-width: 100%;
+            &:hover {
+              transform: scale(1.03);
+              transition: 0.3s ease-in-out;
+            }
+
+          }
+        }
+        .details {
+          h5 {
+            padding: 20px;
+            a {
+              text-decoration: none;
+              font-weight: bold;
+              color: color.$secondary-color;
+            }
+          }
+          div.puplisher {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            img {
+              border-radius: 50%;
+              width: 30px;
+              
+            }
+            span {
+              font-weight: bold;
+              &:last-of-type {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+    a.view {
+      text-align: center;
+      color: color.$quaternary-color;
+      text-decoration: none;
+      font-weight: bold;
+
+      span {
+
+      }
+      i {
+
+      }
+    }
+  }
+}
+/* End blog_posts Hero*/

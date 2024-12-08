@@ -1,0 +1,291 @@
+/* start global rules */
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("../../Assets/fonts/Graphik-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("../../Assets/fonts/Graphik-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Semibold";
+  src: url("../../Assets/fonts/Graphik-Semibold.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Graphik-Regular", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* end global rules */
+/* Start Career Hero*/
+.section {
+  margin-block: 4rem;
+}
+
+.careers {
+  text-align: center;
+  background-color: #F5EEE9;
+  position: relative;
+  max-height: 450px;
+}
+.careers .container .career-top {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.careers .container .career-top h1 {
+  font-size: 3rem;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+.careers .container .career-top p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+}
+.careers .container .career-bottom {
+  overflow: hidden;
+}
+.careers .container .career-bottom img {
+  max-width: 100%;
+  border-radius: 10px;
+  width: 75rem;
+  height: 37rem;
+  object-fit: cover;
+  max-height: 100%;
+}
+.careers .container .career-bottom img:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out all;
+}
+
+/* End Career Hero*/
+/* Start career benefits Hero*/
+.benefits {
+  margin-top: 27rem;
+  text-align: left;
+}
+.benefits .container {
+  max-width: 50rem;
+  margin: 0 auto;
+  opacity: 0.7;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.benefits .container .career-benefits-top {
+  max-width: 50rem;
+}
+.benefits .container .career-benefits-bottom .benefit {
+  padding: 10px;
+  padding-left: 0;
+}
+.benefits .container .career-benefits-bottom .benefit i {
+  color: #0F604D;
+  margin-right: 5px;
+}
+/* End career benefits Hero*/
+/* Start career openings Hero*/
+.openings {
+  background-color: #F5EEE9;
+}
+.openings .container {
+  max-width: 55rem;
+  margin: 0 auto;
+}
+.openings .container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  padding-block: 3rem;
+  font-weight: bold;
+}
+.openings .container .cards .card {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20PX;
+  border: none;
+}
+.openings .container .cards .card .details h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.openings .container .cards .card .details span {
+  font-size: 1rem;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+.openings .container .cards .card a {
+  align-self: flex-end;
+  color: #0F604D;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #F5EEE9;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  padding-bottom: 5px;
+}
+/* End career openings Hero*/
+/* Start feedbacks Hero*/
+.feedbacks {
+  text-align: center;
+}
+.feedbacks .container {
+  max-width: 55rem;
+  margin: 0 auto;
+}
+.feedbacks .container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+.feedbacks .container .cards .card {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.feedbacks .container .cards .card img {
+  width: 130px;
+}
+.feedbacks .container .cards .card q {
+  opacity: 0.7;
+  margin-block: 20px;
+  font-size: 1.1rem;
+}
+.feedbacks .container .cards .card div.customer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.feedbacks .container .cards .card div.customer img {
+  width: 35px;
+  border-radius: 50%;
+}
+.feedbacks .container .cards .card div.customer div.customer-details {
+  margin-top: 10px;
+  line-height: 0.4rem;
+}
+.feedbacks .container .cards .card div.customer div.customer-details h6 {
+  font-weight: bold;
+}
+.feedbacks .container .cards .card div.customer div.customer-details p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.feedbacks .container a {
+  text-align: center;
+  color: #0F604D;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* End feedbacks Hero*/
+/* Start trusted_brands Hero*/
+.trusted_brands .container {
+  max-width: 55rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* End trusted_brands Hero*/
+/* Start blog_posts Hero*/
+.blog_posts {
+  background-color: #F5EEE9;
+  text-align: center;
+}
+.blog_posts .container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.blog_posts .container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  padding-block: 3rem;
+  font-weight: bold;
+}
+.blog_posts .container .cards .card {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+.blog_posts .container .cards .card div.fixed {
+  position: absolute;
+  background-color: #0F604D;
+  color: #fff;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 3;
+}
+.blog_posts .container .cards .card a {
+  overflow: hidden;
+  border-radius: 20px;
+}
+.blog_posts .container .cards .card a img {
+  max-width: 100%;
+}
+.blog_posts .container .cards .card a img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+.blog_posts .container .cards .card .details h5 {
+  padding: 20px;
+}
+.blog_posts .container .cards .card .details h5 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+.blog_posts .container .cards .card .details div.puplisher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.blog_posts .container .cards .card .details div.puplisher img {
+  border-radius: 50%;
+  width: 30px;
+}
+.blog_posts .container .cards .card .details div.puplisher span {
+  font-weight: bold;
+}
+.blog_posts .container .cards .card .details div.puplisher span:last-of-type {
+  opacity: 0.7;
+}
+.blog_posts .container a.view {
+  text-align: center;
+  color: #0F604D;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* End blog_posts Hero*/

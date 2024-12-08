@@ -14,13 +14,12 @@ footer .footerhead .newsLetterForm .newsLetterBtn {
   background-color: #0F604D;
   color: white;
   font-family: "Graphik-Regular", sans-serif;
-  font-weight: 505;
   font-size: 1rem;
   border: 0;
   padding: 8px 4px;
   border-radius: 8px;
   transition: 0.5s;
-  width: 150px;
+  min-width: 150px;
 }
 
 footer .footerhead .newsLetterForm .newsLetterBtn:hover {
@@ -30,15 +29,17 @@ footer .footerhead .newsLetterForm .newsLetterBtn:hover {
 footer {
   background-color: #0E0E0F;
   color: white;
-  padding: 32px;
+  padding: 48px;
 }
 
 footer a {
   text-decoration: none;
   color: white;
 }
-
-footer li {
+footer ul {
+  padding: 0;
+}
+footer ul li {
   list-style-type: none;
 }
 
@@ -72,31 +73,52 @@ footer .footerhead .footerIntroDescription {
 }
 
 footer .footerhead .newsLetterForm .newsLetterEmail {
-  width: 250;
   height: 40px;
   border: 1px solid #d8d8d8;
   border-radius: 8px;
   margin-right: 4px;
   padding: 20px;
 }
-
+footer .footerhead .newsLetterForm .newsLetterBtn {
+  margin-top: 8px;
+}
 footer .footBody {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer .footBody .bodyCard {
   max-width: 320px;
 }
-
+footer .footBody .bodyCard p {
+  margin-top: 12px;
+  font-family: "Graphik-Regular", sans-serif;
+}
+footer .footBody .bodyCard a {
+  margin-bottom: 8px;
+}
 footer .footBody .linkListsContainer {
   display: flex;
-  gap: 32px;
+  gap: 64px;
+  flex-wrap: wrap;
 }
-
+footer .footBody .linkListsContainer .ProductList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Graphik-Medium", sans-serif;
+  font-weight: 500;
+}
+footer .footBody .linkListsContainer .ProductList .listTitle {
+  color: rgba(255, 255, 255, 0.7019607843);
+  font-size: 0.9rem;
+}
 footer .footButtom {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 
 footer .footButtom .socailLink {
