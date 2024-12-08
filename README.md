@@ -4,7 +4,16 @@
 
 ## Level-one
 
-  
+## **Team Members and Tasks**  
+
+1. **Home page** – **Ahmed Moussa Hassan**  
+2. **careers page** – **Omar mahmoud ali**  
+3. **insights page** – **Esraa Tarek Ibrahim**  
+4. **our team page** – **Ahmed Mohamed Elzeny**  
+5. **contact page** – **Nareman Abdallah**  
+
+---
+
 
 ### Project Setup Guide
 
