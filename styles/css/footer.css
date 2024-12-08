@@ -29,10 +29,6 @@ footer {
   background-color: #0E0E0F;
   color: white;
   padding: 48px;
-  /* @media screen and (min-width: 1900px){
-      display: flex;
-      flex-direction: column;
-  } */
 }
 footer a {
   text-decoration: none;
@@ -122,33 +118,4 @@ footer .footButtom {
 footer .footButtom .socailLink {
   display: flex;
   gap: 16px;
-}
-footer footer {
-  background-color: #0E0E0F;
-  color: white;
-  padding: 48px;
-  max-width: 1900px; /* Limit max width to 1900px */
-  margin: 0 auto; /* Center the content horizontally */
-}
-@media screen and (min-width: 1900px) {
-  footer footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content vertically */
-  }
-  footer .footerhead,
-  footer .footBody,
-  footer .footButtom {
-    width: 100%; /* Ensure sections take full width */
-    text-align: center; /* Center the content inside the sections */
-  }
-  footer .footerIntroTitle,
-  footer .footerIntroDescription,
-  footer .bodyCard,
-  footer .ProductList {
-    text-align: center; /* Center text for consistency */
-  }
-  footer .socailLink {
-    justify-content: center; /* Center the social links */
-  }
 }
