@@ -22,6 +22,7 @@ footer .footerhead .newsLetterForm .newsLetterBtn {
   transition: 0.5s;
   width: 150px;
 }
+
 footer .footerhead .newsLetterForm .newsLetterBtn:hover {
   background-color: #0c4e3e;
 }
@@ -31,37 +32,45 @@ footer {
   color: white;
   padding: 32px;
 }
+
 footer a {
   text-decoration: none;
   color: white;
 }
+
 footer li {
   list-style-type: none;
 }
+
 footer hr {
   width: 100%;
   color: rgba(255, 255, 255, 0.7019607843);
 }
+
 footer i {
   color: white;
 }
+
 footer .footerhead {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+
 footer .footerhead .footerIntroTitle {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 }
+
 footer .footerhead .footerIntroDescription {
   color: rgba(255, 255, 255, 0.7019607843);
   font-family: "Graphik-Regular", sans-serif;
   font-size: 1.25rem;
   max-width: 700px;
 }
+
 footer .footerhead .newsLetterForm .newsLetterEmail {
   width: 250;
   height: 40px;
@@ -70,22 +79,27 @@ footer .footerhead .newsLetterForm .newsLetterEmail {
   margin-right: 4px;
   padding: 20px;
 }
+
 footer .footBody {
   display: flex;
   justify-content: space-around;
 }
+
 footer .footBody .bodyCard {
   max-width: 320px;
 }
+
 footer .footBody .linkListsContainer {
   display: flex;
   gap: 32px;
 }
+
 footer .footButtom {
   display: flex;
   justify-content: space-between;
 }
+
 footer .footButtom .socailLink {
   display: flex;
   gap: 16px;
-}
+} 
