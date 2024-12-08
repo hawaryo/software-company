@@ -39,7 +39,7 @@ body {
 }
 
 .contactCard .card {
-  background-color: #F5EEE9;
+  background-color: #f5eee9;
 }
 
 .contactCard .pageContent {
@@ -80,7 +80,7 @@ body {
 }
 
 .contactForm button {
-  background-color: #0F604D;
+  background-color: #0f604d;
 }
 
 .contactForm button:hover {
@@ -88,7 +88,7 @@ body {
 }
 
 .contactForm a {
-  color: #0F604D;
+  color: #0f604d;
 }
 
 .otherWays h2 {
@@ -96,12 +96,12 @@ body {
 }
 
 .otherWays .otherWays-card {
-  background-color: #F5EEE9;
+  background-color: #f5eee9;
   border-radius: 1rem;
 }
 
 .otherWays .otherWays-card a {
-  color: #0F604D;
+  color: #0f604d;
 }
 
 .otherWays p {
@@ -114,13 +114,13 @@ body {
 }
 
 .askedQuestions .accordion {
-  background-color: #F5EEE9;
+  background-color: #f5eee9;
   --bs-accordion-bg: none;
 }
 
 .askedQuestions .accordion-button:not(.collapsed) {
   color: #000000;
-  background-color: #F5EEE9;
+  background-color: #f5eee9;
   box-shadow: none;
 }
 
@@ -137,31 +137,27 @@ body {
 }
 
 .gainValuable {
-  background-color: #F5EEE9;
+  background-color: #f5eee9;
 }
 
 .gainValuable .cardTitle {
   position: absolute;
   top: 23px;
   left: 26px;
-  background-color: #0F604D;
+  background-color: #0f604d;
   font-size: 0.8rem;
 }
-
 .gainValuable .avtar {
   border-radius: 50%;
   width: 1.5rem;
 }
-
 .gainValuable .avtarContent {
   font-size: 0.8rem;
 }
-
 .gainValuable a {
-  color: #0F604D;
+  color: #0f604d;
 }
-
 .scaleImage:hover img {
   transform: scale(1.03);
   transition: transform 0.8s ease;
-} 
+}
