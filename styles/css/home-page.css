@@ -21,6 +21,7 @@ main .featuresContainer .featuresSectionOutro .trialBtn, main .questionSection .
   transition: 0.5s;
   min-width: 150px;
 }
+
 main .featuresContainer .featuresSectionOutro .trialBtn:hover, main .questionSection .questionCard .questionBtn:hover, main .insightsSection .introContainer .postsBtn:hover, main .pricingContainer .pricingCards .pricingCard .pricingBtn:hover {
   background-color: #0c4e3e;
 }
@@ -37,6 +38,7 @@ main .featuresContainer .featuresSectionOutro .demoBtn, main .pricingContainer .
   transition: 0.5s;
   min-width: 150px;
 }
+
 main .featuresContainer .featuresSectionOutro .demoBtn:hover, main .pricingContainer .comparePlans .compareBtn:hover, main .teamSection .hiring .hiringBtn:hover {
   border: 1px solid rgb(169, 169, 169);
 }
@@ -49,6 +51,7 @@ main .featuresContainer .featuresSectionIntro, main .featuresContainer .features
   padding: 8px;
   text-align: center;
 }
+
 main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .featuresSectionOutro .icon, main .pricingContainer .pricingIntro .icon, main .questionSection .questionIntro .icon, main .teamSection .teamIntro .icon, main .insightsSection .introContainer .insightsIntro .icon {
   font-family: "Graphik-Regular", sans-serif;
   color: #0F604D;
@@ -57,12 +60,14 @@ main .featuresContainer .featuresSectionIntro .icon, main .featuresContainer .fe
   padding: 4px 24px;
   margin-bottom: 16px;
 }
+
 main .featuresContainer .featuresSectionIntro h2, main .featuresContainer .featuresSectionOutro h2, main .pricingContainer .pricingIntro h2, main .questionSection .questionIntro h2, main .teamSection .teamIntro h2, main .insightsSection .introContainer .insightsIntro h2 {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 16px;
 }
+
 main .featuresContainer .featuresSectionIntro .description, main .featuresContainer .featuresSectionOutro .description, main .pricingContainer .pricingIntro .description, main .questionSection .questionIntro .description, main .teamSection .teamIntro .description, main .insightsSection .introContainer .insightsIntro .description {
   font-size: 1.25rem;
   max-width: 800px;
@@ -79,6 +84,7 @@ main .pricingContainer .pricingCards .pricingCard {
   border-radius: 16px;
   max-width: 500px;
 }
+
 main .pricingContainer .pricingCards .pricingCard .label {
   position: absolute;
   top: 16px;
@@ -90,6 +96,7 @@ main .pricingContainer .pricingCards .pricingCard .label {
   padding: 4px 16px;
   border-radius: 8px;
 }
+
 main .pricingContainer .pricingCards .pricingCard .title {
   color: #0F604D;
   font-family: "Graphik-Semibold", sans-serif;
@@ -97,28 +104,34 @@ main .pricingContainer .pricingCards .pricingCard .title {
   font-weight: bold;
   margin-bottom: 24px;
 }
+
 main .pricingContainer .pricingCards .pricingCard .price {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 16px;
 }
+
 main .pricingContainer .pricingCards .pricingCard .price .month {
   font-size: 2rem;
 }
+
 main .pricingContainer .pricingCards .pricingCard .description {
   font-size: 1.25rem;
   margin-bottom: 32px;
   text-align: center;
 }
+
 main .pricingContainer .pricingCards .pricingCard .pricingBtn {
   margin-bottom: 16px;
   padding: 12px;
   width: 100%;
 }
+
 main .pricingContainer .pricingCards .pricingCard hr {
   width: 100%;
 }
+
 main .pricingContainer .pricingCards .pricingCard .featuresList {
   align-self: flex-start;
   margin-top: 16px;
@@ -154,6 +167,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   padding: 32px;
   background: linear-gradient(white, #F5EEE9);
 }
+
 .headerMain .headFristSection {
   display: flex;
   justify-content: center;
@@ -161,9 +175,11 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   flex-wrap: wrap;
   gap: 64px;
 }
+
 .headerMain .headFristSection .headerContent {
   max-width: 600px;
 }
+
 .headerMain .headFristSection .headerContent h1 {
   font-family: "Graphik-Regular", sans-serif;
   font-size: 4rem;
@@ -180,6 +196,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   font-size: 1.25rem;
   margin-bottom: 24px;
 }
+
 .headerMain .headFristSection .headerContent .email {
   height: 40px;
   border: 1px solid #d8d8d8;
@@ -188,6 +205,7 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   margin-right: 4px;
   padding: 20px;
 }
+
 .headerMain .headFristSection .headerContent .getDemoBtn {
   background-color: #0F604D;
   color: white;
@@ -195,18 +213,23 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   border-radius: 8px;
   padding: 8px 32px;
 }
+
 .headerMain .headFristSection .headerContent .reviews .reviewers img {
   border-radius: 24px;
   margin-right: -20px;
 }
+
 .headerMain .headFristSection .heroImgContainer {
   position: relative;
+  width: -moz-fit-content;
   width: fit-content;
 }
+
 .headerMain .headFristSection .heroImgContainer .accountImg,
 .headerMain .headFristSection .heroImgContainer .countriesImg {
   position: absolute;
 }
+
 @media screen and (max-width: 780px) {
   .headerMain .headFristSection .heroImgContainer .accountImg,
   .headerMain .headFristSection .heroImgContainer .countriesImg {
@@ -218,15 +241,18 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   left: 50px;
   transform: translate(-50%, -50%);
 }
+
 .headerMain .headFristSection .heroImgContainer .accountImg {
   bottom: 150px;
   right: 50px;
   transform: translate(50%, 50%);
 }
+
 .headerMain .headFristSection .heroImgContainer .heroImg {
   max-width: 100%;
   border-radius: 16px;
 }
+
 .headerMain .brands {
   text-align: center;
   margin-top: 64px;
@@ -252,16 +278,20 @@ main {
   /*team section */
   /*insights section */
 }
+
 main .featuresContainer {
   margin: 64px 0 64px 0;
 }
+
 main .featuresContainer .featuresSectionIntro .icon {
   border: 1px solid #eeecec;
   border-radius: 24px;
 }
+
 main .featuresContainer .featuresSectionIntro h2 {
   font-size: 3rem;
 }
+
 main .featuresContainer .mainFeatures {
   display: flex;
   justify-content: center;
@@ -270,13 +300,16 @@ main .featuresContainer .mainFeatures {
   margin: 0 auto;
   max-width: 1440px;
 }
+
 main .featuresContainer .mainFeatures .FeatureContainer {
   font-family: "Graphik-Regular", sans-serif;
   padding: 32px;
 }
+
 main .featuresContainer .mainFeatures .FeatureContainer:nth-child(even) {
   background: linear-gradient(white, #F5EEE9);
 }
+
 main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
   display: flex;
   justify-content: center;
@@ -287,6 +320,7 @@ main .featuresContainer .mainFeatures .FeatureContainer .featureIcon {
   border-radius: 12px;
   background-color: #0F604D;
 }
+
 @media screen and (min-width: 780px) {
   main .featuresContainer .mainFeatures .FeatureContainer p {
     max-width: 320px;
@@ -297,26 +331,32 @@ main .featuresContainer .mainFeatures .FeatureContainer a {
   color: #0F604D;
   font-size: 1rem;
 }
+
 main .featuresContainer .featuresSectionOutro .demoBtn {
   margin-right: 8px;
 }
+
 main .detailsContainer {
   background-color: #F5EEE9;
 }
+
 main .detailsContainer .detailFirstSection {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
 }
+
 main .detailsContainer .detailFirstSection .topImage {
   max-width: 100%;
 }
+
 main .detailsContainer .detailFirstSection .details {
   padding: 64px;
   max-width: 900px;
   flex: 1 1 550px;
 }
+
 @media screen and (max-width: 750px) {
   main .detailsContainer .detailFirstSection .details {
     padding: 32px;
@@ -327,16 +367,19 @@ main .detailsContainer .detailFirstSection .details h3 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 main .detailsContainer .detailFirstSection .details .accordion-body,
 main .detailsContainer .detailFirstSection .details .accordion-button {
   background-color: #F5EEE9;
 }
+
 main .detailsContainer .detailFirstSection .details .accordion-button {
   font-family: "Graphik-Medium", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   box-shadow: none;
 }
+
 main .detailsContainer .detailFirstSection .details .accordionIcon {
   display: flex;
   justify-content: center;
@@ -348,6 +391,7 @@ main .detailsContainer .detailFirstSection .details .accordionIcon {
   border-radius: 50%;
   background-color: #0F604D;
 }
+
 main .detailsContainer .detailSecondSection {
   display: flex;
   justify-content: space-between;
@@ -355,11 +399,13 @@ main .detailsContainer .detailSecondSection {
   flex-wrap: wrap;
   gap: 32px;
 }
+
 main .detailsContainer .detailSecondSection .details {
   padding: 64px;
   max-width: 900px;
   flex: 1 1 500px;
 }
+
 @media screen and (max-width: 750px) {
   main .detailsContainer .detailSecondSection .details {
     padding: 32px;
@@ -370,14 +416,17 @@ main .detailsContainer .detailSecondSection .details h3 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 main .detailsContainer .detailSecondSection .details p {
   margin-bottom: 16px;
 }
+
 main .detailsContainer .detailSecondSection .details .featuresList {
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
 }
+
 main .detailsContainer .detailSecondSection .details .featuresList .featureIcon {
   display: flex;
   justify-content: center;
@@ -389,6 +438,7 @@ main .detailsContainer .detailSecondSection .details .featuresList .featureIcon 
   border-radius: 50%;
   background-color: #0F604D;
 }
+
 main .detailsContainer .detailSecondSection .bottomImage {
   max-width: 100%;
 }
@@ -401,22 +451,27 @@ main .pricingContainer .pricingCards {
   flex-wrap: wrap;
   gap: 32px;
 }
+
 main .pricingContainer .comparePlans {
   margin-top: 64px;
   text-align: center;
 }
+
 main .pricingContainer .comparePlans .compareBtn {
   width: 200px;
   padding: 12px;
 }
+
 main .pricingContainer .comparePlans p {
   margin-top: 8px;
   font-family: "Graphik-Medium", sans-serif;
   font-size: 1rem;
 }
+
 main .feedbacksection .feedbackCard .logo {
   margin-bottom: 16px;
 }
+
 main .feedbacksection .feedbackCard .qoute {
   margin-bottom: 32px;
   font-family: "Graphik-Medium", sans-serif;
@@ -424,11 +479,13 @@ main .feedbacksection .feedbackCard .qoute {
   font-weight: bold;
   max-width: 700px;
 }
+
 main .feedbacksection .feedbackCard h6 {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 main .feedbacksection a {
   display: block;
   text-align: center;
@@ -438,37 +495,46 @@ main .feedbacksection a {
   font-size: 1.1rem;
   font-weight: bold;
 }
+
 main .questionSection .questionIntro h2 {
   font-size: 2.5rem;
 }
+
 main .questionSection .accordion {
   margin: 0 auto;
   max-width: 700px;
 }
+
 main .questionSection .accordion .accordion-button {
   background-color: white;
   box-shadow: none;
 }
+
 main .questionSection .questionCard {
   gap: 8px;
 }
+
 main .questionSection .questionCard img {
   border: 2px solid #F5EEE9;
   border-radius: 24px;
   margin-right: -20px;
 }
+
 main .questionSection .questionCard h5 {
   font-family: "Graphik-Semibold", sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
 }
+
 main .questionSection .questionCard .questionBtn {
   font-size: 1rem;
   font-weight: bold;
 }
+
 main .teamSection .teamIntro h2 {
   font-size: 2.5rem;
 }
+
 main .teamSection .teamMembers {
   margin: 0 auto;
   max-width: 1200px;
@@ -477,6 +543,7 @@ main .teamSection .teamMembers {
   flex-wrap: wrap;
   gap: 16px;
 }
+
 @media screen and (max-width: 1050px) {
   main .teamSection .teamMembers {
     justify-content: center;
@@ -486,14 +553,17 @@ main .teamSection .teamMembers .memberCard .memberImg {
   border-radius: 8px;
   margin-bottom: 16px;
 }
+
 main .teamSection .teamMembers .memberCard .memberName {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 2px;
 }
+
 main .teamSection .teamMembers .memberCard .memberRole {
   font-size: 1rem;
 }
+
 main .teamSection .hiring {
   display: flex;
   flex-direction: column;
@@ -501,6 +571,7 @@ main .teamSection .hiring {
   margin: 32px 0;
   padding: 8px;
 }
+
 main .teamSection .hiring .hiringDescription {
   text-align: center;
   max-width: 400px;
@@ -513,26 +584,32 @@ main .insightsSection {
   background-color: #F5EEE9;
   padding: 32px 16px 64px 16px;
 }
+
 main .insightsSection .introContainer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   flex-wrap: wrap;
 }
+
 main .insightsSection .introContainer .insightsIntro {
   align-items: flex-start;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 main .insightsSection .introContainer .insightsIntro .icon {
   padding-inline-start: 0;
 }
+
 main .insightsSection .introContainer .insightsIntro .description {
   margin-bottom: 0;
 }
+
 main .insightsSection .introContainer .postsBtn {
   margin-top: 8px;
 }
+
 main .insightsSection .postsContainer {
   margin-top: 32px;
   display: flex;
@@ -540,17 +617,20 @@ main .insightsSection .postsContainer {
   flex-wrap: wrap;
   gap: 32px;
 }
+
 main .insightsSection .postsContainer .postCard .postImg {
   border-radius: 12px;
   margin-bottom: 16px;
   max-width: 100%;
 }
+
 main .insightsSection .postsContainer .postCard .postDescription {
   max-width: 400px;
 }
+
 main .insightsSection .postsContainer .postCard .postLink {
   text-decoration: none;
   color: #0F604D;
   font-size: 1.1rem;
   font-weight: bold;
-}
+} 
