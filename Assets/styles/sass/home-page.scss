@@ -2,9 +2,7 @@
 @use "./font" as font;
 @use "./buttons";
 @use "./textCards";
-/* body{
-    font-family: font.$primary-font;
-} */
+
 
 .headerMain {
   padding: 32px;
@@ -147,7 +145,8 @@ main {
       .FeatureContainer {
         font-family: font.$primary-font;
         padding: 32px;
-         border-radius: 4px;
+        border-radius: 4px;
+
         &:nth-child(even) {
           background: linear-gradient(color.$primary-color,
               color.$tertiary-color );
@@ -196,22 +195,26 @@ main {
   /* details section */
   .detailsContainer {
     background-color: color.$tertiary-color;
-  @media screen and (min-width: 1900px){
+
+    @media screen and (min-width: 1900px) {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
     .detailFirstSection {
       display: flex;
 
       align-items: center;
       flex-wrap: wrap;
       gap: 32px;
+
       @media screen and (min-width: 500px) and (max-width: 1550px) {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
       .topImage {
         max-width: 100%;
       }
@@ -267,11 +270,13 @@ main {
       flex-wrap: wrap;
       gap: 32px;
       max-width: 1900px;
-    @media screen and (min-width: 500px) and (max-width: 1500px){
+
+      @media screen and (min-width: 500px) and (max-width: 1500px) {
         display: flex;
         flex-direction: column;
         align-items: center;
       }
+
       .details {
         padding: 64px;
         max-width: 900px;

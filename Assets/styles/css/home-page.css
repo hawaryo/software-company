@@ -147,9 +147,6 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   max-width: 1000px;
 }
 
-/* body{
-    font-family: font.$primary-font;
-} */
 .headerMain {
   padding: 32px;
   background: linear-gradient(white, #F5EEE9);
