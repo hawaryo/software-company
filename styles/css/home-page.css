@@ -317,7 +317,7 @@ main .detailsContainer .detailFirstSection {
   flex-wrap: wrap;
   gap: 32px;
 }
-@media screen and (min-width: 500px) and (max-width: 1500px) {
+@media screen and (min-width: 500px) and (max-width: 1550px) {
   main .detailsContainer .detailFirstSection {
     display: flex;
     flex-direction: column;
