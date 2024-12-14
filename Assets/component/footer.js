@@ -10,7 +10,7 @@ How to use this component:
 class footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-<link rel="stylesheet" href="./styles/css/footer.css">
+<link rel="stylesheet" href="./assets/styles/css/footer.css">
     <link
       rel="stylesheet"
       href="node_modules/bootstrap-icons/font/bootstrap-icons.css"

@@ -10,7 +10,7 @@ How to use this component:
 class navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-<link rel="stylesheet" href="./styles/css/navbar.css">
+<link rel="stylesheet" href="./assets/styles/css/navbar.css">
               <header>
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
