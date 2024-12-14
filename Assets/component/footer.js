@@ -36,7 +36,7 @@ class footer extends HTMLElement {
       <div class="footBody">
         <div class="bodyCard">
           <img
-            src="./assets/images/home-page-images/footer/logo-dark.svg"
+            src="./assets/images/home-page/footer/logo-dark.svg"
             alt="logo"
           />
           <p>
