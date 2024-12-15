@@ -41,7 +41,8 @@ footer ul li {
   list-style-type: none;
 }
 footer hr {
-  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
   color: rgba(255, 255, 255, 0.7019607843);
 }
 footer i {
@@ -50,8 +51,8 @@ footer i {
 footer .footerhead,
 footer .footBody,
 footer .footButtom {
-  max-width: 1900px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 footer .footerhead {
   display: flex;
@@ -81,6 +82,7 @@ footer .footerhead .newsLetterForm .newsLetterBtn {
   margin-top: 8px;
 }
 footer .footBody {
+  margin-block: 64px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

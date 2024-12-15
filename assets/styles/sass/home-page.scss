@@ -515,6 +515,9 @@ main {
     padding: 32px 16px 64px 16px;
 
     .introContainer {
+    width: 100%;
+      max-width: 1850px;
+      margin-inline: auto;
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
@@ -526,7 +529,7 @@ main {
         margin-bottom: 0;
         padding-bottom: 0;
 
-        .icon {
+        .icon { 
           padding-inline-start: 0;
         }
 

@@ -22,7 +22,8 @@ footer {
   }
 
   hr {
-    width: 100%;
+    max-width: 1200px;
+    margin-inline:auto;
     color: color.$primary-color-dark;
 
   }
@@ -34,8 +35,9 @@ footer {
   .footerhead,
   .footBody,
   .footButtom {
-      max-width: 1900px;
-      margin: 0 auto; // Center each section within the footer
+    max-width: 1200px;
+    margin-inline: auto;
+    
   }
 
   .footerhead {
@@ -43,6 +45,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+ 
 
 
     .footerIntroTitle {
@@ -75,7 +78,7 @@ footer {
   }
 
   .footBody {
-
+     margin-block: 64px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -115,7 +118,7 @@ footer {
   }
 
   .footButtom {
-
+   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

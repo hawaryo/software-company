@@ -532,6 +532,9 @@ main .insightsSection {
   padding: 32px 16px 64px 16px;
 }
 main .insightsSection .introContainer {
+  width: 100%;
+  max-width: 1850px;
+  margin-inline: auto;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;

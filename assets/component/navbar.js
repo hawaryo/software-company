@@ -11,7 +11,6 @@ class navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 <link rel="stylesheet" href="./assets/styles/css/navbar.css">
-              <header>
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -37,7 +36,7 @@ class navbar extends HTMLElement {
             <ul class="navbar-nav me-auto ms-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/contact.html"
-                  >Contact</a>
+                  >Conta  ct</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/insights.html">Insights</a>
