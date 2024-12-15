@@ -114,6 +114,7 @@
     }
   }
 }
+
 /*main*/
 main {
 
@@ -215,7 +216,7 @@ main {
         align-items: center;
       }
 
-      .detailsMainImage  {
+      .detailsMainImage {
         max-width: 100%;
       }
 
@@ -465,7 +466,8 @@ main {
       margin: 0 auto;
       max-width: 1200px;
       display: flex;
-        justify-content: center;      flex-wrap: wrap;
+      justify-content: center;
+      flex-wrap: wrap;
       gap: 16px;
 
 
