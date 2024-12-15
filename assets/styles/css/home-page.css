@@ -147,37 +147,38 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   max-width: 1000px;
 }
 
-.headerMain {
+/*header*/
+.headerMainContent {
   padding: 32px;
   background: linear-gradient(white, #F5EEE9);
 }
-.headerMain .headFristSection {
+.headerMainContent .headFristSection {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 64px;
 }
-.headerMain .headFristSection .headerContent {
+.headerMainContent .headFristSection .headerContent {
   max-width: 600px;
 }
-.headerMain .headFristSection .headerContent h1 {
+.headerMainContent .headFristSection .headerContent h1 {
   font-family: "Graphik-Regular", sans-serif;
   font-size: 4rem;
   margin-bottom: 16px;
 }
 @media screen and (max-width: 500px) {
-  .headerMain .headFristSection .headerContent h1 {
+  .headerMainContent .headFristSection .headerContent h1 {
     font-size: 3rem;
   }
 }
-.headerMain .headFristSection .headerContent .description {
+.headerMainContent .headFristSection .headerContent .description {
   max-width: 500px;
   font-family: "Graphik-Regular", sans-serif;
   font-size: 1.25rem;
   margin-bottom: 24px;
 }
-.headerMain .headFristSection .headerContent .email {
+.headerMainContent .headFristSection .headerContent .email {
   height: 40px;
   border: 1px solid #d8d8d8;
   border-radius: 8px;
@@ -185,61 +186,62 @@ main .feedbacksection .feedbackCard, main .questionSection .questionCard {
   margin-right: 4px;
   padding: 20px;
 }
-.headerMain .headFristSection .headerContent .getDemoBtn {
+.headerMainContent .headFristSection .headerContent .getDemoBtn {
   background-color: #0F604D;
   color: white;
   border: none;
   border-radius: 8px;
   padding: 8px 32px;
 }
-.headerMain .headFristSection .headerContent .reviews .reviewers img {
+.headerMainContent .headFristSection .headerContent .reviews .reviewers img {
   border-radius: 24px;
   margin-right: -20px;
 }
-.headerMain .headFristSection .heroImgContainer {
+.headerMainContent .headFristSection .heroImgContainer {
   position: relative;
   width: fit-content;
 }
-.headerMain .headFristSection .heroImgContainer .accountImg,
-.headerMain .headFristSection .heroImgContainer .countriesImg {
+.headerMainContent .headFristSection .heroImgContainer .accountImg,
+.headerMainContent .headFristSection .heroImgContainer .countriesImg {
   position: absolute;
 }
 @media screen and (max-width: 780px) {
-  .headerMain .headFristSection .heroImgContainer .accountImg,
-  .headerMain .headFristSection .heroImgContainer .countriesImg {
+  .headerMainContent .headFristSection .heroImgContainer .accountImg,
+  .headerMainContent .headFristSection .heroImgContainer .countriesImg {
     display: none;
   }
 }
-.headerMain .headFristSection .heroImgContainer .countriesImg {
+.headerMainContent .headFristSection .heroImgContainer .countriesImg {
   top: 210px;
   left: 50px;
   transform: translate(-50%, -50%);
 }
-.headerMain .headFristSection .heroImgContainer .accountImg {
+.headerMainContent .headFristSection .heroImgContainer .accountImg {
   bottom: 150px;
   right: 50px;
   transform: translate(50%, 50%);
 }
-.headerMain .headFristSection .heroImgContainer .heroImg {
+.headerMainContent .headFristSection .heroImgContainer .heroImg {
   max-width: 100%;
   border-radius: 16px;
 }
-.headerMain .brands {
+.headerMainContent .brands {
   text-align: center;
   margin-top: 64px;
   margin-bottom: 32px;
 }
-.headerMain .brands .brandLogos {
+.headerMainContent .brands .brandLogos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
 }
-.headerMain .brands p {
+.headerMainContent .brands p {
   margin-bottom: 24px;
 }
 
+/*main*/
 main {
   /* feature section */
   /* details section */

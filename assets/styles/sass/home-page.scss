@@ -3,8 +3,8 @@
 @use "./buttons";
 @use "./textCards";
 
-
-.headerMain {
+/*header*/
+.headerMainContent {
   padding: 32px;
   background: linear-gradient(color.$primary-color, color.$tertiary-color);
 
@@ -114,7 +114,7 @@
     }
   }
 }
-
+/*main*/
 main {
 
   /* feature section */
