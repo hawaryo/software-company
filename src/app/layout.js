@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
-        <BootstrapClient />
+      <BootstrapClient />
       </body>
     </html>
   );
