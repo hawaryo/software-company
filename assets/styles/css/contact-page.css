@@ -15,8 +15,10 @@ body {
 }
 
 .contactHead {
+  margin-top: 32px;
   width: 90%;
-  margin-top: 5rem;
+  margin-inline: auto;
+  margin-top: 64px;
 }
 .contactHead h1 {
   font-size: 3.5rem;
