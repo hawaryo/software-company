@@ -197,7 +197,7 @@ main {
   .detailsSection {
     background-color: color.$tertiary-color;
 
-    @media screen and (min-width: 1900px) {
+    @media screen and (min-width: 1950px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -218,6 +218,7 @@ main {
 
       .detailsMainImage {
         max-width: 100%;
+        border-radius: 8px;
       }
 
       .detailsContentContainer {
@@ -280,7 +281,7 @@ main {
       }
 
       .detailsContentContainer {
-        padding: 64px;
+        padding: 112px;
         max-width: 900px;
         flex: 1 1 500px;
 
@@ -299,20 +300,33 @@ main {
         }
 
         .featuresList {
-          margin-top: 32px;
+          margin-top: 40px;
           display: flex;
           flex-wrap: wrap;
+          justify-content: space-between;
 
-          .featureIcon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 16px;
-            width: 50px;
-            height: 50px;
-            padding: 8px;
-            border-radius: 50%;
-            background-color: color.$quaternary-color;
+          .featuresListCard {
+            .featureIcon {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 16px;
+              width: 50px;
+              height: 50px;
+              padding: 8px;
+              border-radius: 50%;
+              background-color: color.$quaternary-color;
+            }
+
+            h4 {
+              font-family: font.$tertiary-font;
+            }
+
+            p {
+              max-width: 320px;
+            }
+
+
           }
 
 
@@ -321,6 +335,7 @@ main {
 
       .detailsSecondaryImage {
         max-width: 100%;
+        border-radius: 8px;
       }
     }
   }
@@ -515,7 +530,7 @@ main {
     padding: 32px 16px 64px 16px;
 
     .introContainer {
-    width: 100%;
+      width: 100%;
       max-width: 1850px;
       margin-inline: auto;
       display: flex;
@@ -529,7 +544,7 @@ main {
         margin-bottom: 0;
         padding-bottom: 0;
 
-        .icon { 
+        .icon {
           padding-inline-start: 0;
         }
 

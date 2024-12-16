@@ -303,7 +303,7 @@ main .featuresSection .featuresSectionOutro .demoBtn {
 main .detailsSection {
   background-color: #F5EEE9;
 }
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1950px) {
   main .detailsSection {
     display: flex;
     flex-direction: column;
@@ -325,6 +325,7 @@ main .detailsSection .detailsPrimaryContent {
 }
 main .detailsSection .detailsPrimaryContent .detailsMainImage {
   max-width: 100%;
+  border-radius: 8px;
 }
 main .detailsSection .detailsPrimaryContent .detailsContentContainer {
   padding: 64px;
@@ -379,7 +380,7 @@ main .detailsSection .detailsSecondaryContent {
   }
 }
 main .detailsSection .detailsSecondaryContent .detailsContentContainer {
-  padding: 64px;
+  padding: 112px;
   max-width: 900px;
   flex: 1 1 500px;
 }
@@ -397,11 +398,12 @@ main .detailsSection .detailsSecondaryContent .detailsContentContainer p {
   margin-bottom: 16px;
 }
 main .detailsSection .detailsSecondaryContent .detailsContentContainer .featuresList {
-  margin-top: 32px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-main .detailsSection .detailsSecondaryContent .detailsContentContainer .featuresList .featureIcon {
+main .detailsSection .detailsSecondaryContent .detailsContentContainer .featuresList .featuresListCard .featureIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,8 +414,15 @@ main .detailsSection .detailsSecondaryContent .detailsContentContainer .features
   border-radius: 50%;
   background-color: #0F604D;
 }
+main .detailsSection .detailsSecondaryContent .detailsContentContainer .featuresList .featuresListCard h4 {
+  font-family: "Graphik-Semibold", sans-serif;
+}
+main .detailsSection .detailsSecondaryContent .detailsContentContainer .featuresList .featuresListCard p {
+  max-width: 320px;
+}
 main .detailsSection .detailsSecondaryContent .detailsSecondaryImage {
   max-width: 100%;
+  border-radius: 8px;
 }
 main .pricingSection {
   padding: 8px;
