@@ -44,9 +44,9 @@ ul {
 
 .careers {
   text-align: center;
-  background-color: #F5EEE9;
+  background: linear-gradient(white, #F5EEE9);
   position: relative;
-  max-height: 450px;
+  max-height: 736px;
 }
 .careers .container .career-top {
   max-width: 50rem;
@@ -82,7 +82,7 @@ ul {
 /* End Career Hero*/
 /* Start career benefits Hero*/
 .benefits {
-  margin-top: 27rem;
+  margin-top: 10rem;
   text-align: left;
 }
 .benefits .container {
@@ -218,6 +218,8 @@ ul {
 .blog_posts {
   background-color: #F5EEE9;
   text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 64px;
 }
 .blog_posts .container {
   max-width: 75rem;
