@@ -15,7 +15,7 @@ class footer extends HTMLElement {
       rel="stylesheet"
       href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
     />
-                <footer>
+    <footer>
       <div class="footerhead">
         <div class="footerIntro">
           <h2 class="footerIntroTitle">Sign up now or never!</h2>

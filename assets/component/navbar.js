@@ -36,7 +36,7 @@ class navbar extends HTMLElement {
             <ul class="navbar-nav me-auto ms-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/contact.html"
-                  >Conta  ct</a>
+                  >Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/insights.html">Insights</a>
