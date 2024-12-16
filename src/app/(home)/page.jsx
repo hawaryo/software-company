@@ -5,6 +5,10 @@ import DetailsSection from "@/components/home/DetailsSection";
 import PricingSection from "@/components/home/PricingSection";
 import FeedbackSection from "@/components/home/FeedbackSection";
 import QuestionSection from "@/components/home/QuestionSection";
+import TeamSection from "@/components/home/TeamSection";
+
+
+
 export const metadata = {
   title: "Software Company",
   description: "Welcome to software company",
@@ -20,6 +24,7 @@ export default function HomePage() {
         <PricingSection />
         <FeedbackSection />
         <QuestionSection />
+        <TeamSection />
       </main>
     </>
   );
