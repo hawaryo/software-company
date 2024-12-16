@@ -1,6 +1,44 @@
-## Getting Started
+### Project Setup Guide
 
-First, run the development server:
+  
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hawaryo/software-company.git
+```
+
+2. Navigate into the project directory:
+
+  
+
+```bash
+cd software-company
+```
+
+  
+
+3. Ensure you are on the `Level-two` branch :
+
+ 
+
+```bash
+git switch Level-two
+```
+
+  
+
+4. Install dependencies:
+
+  
+
+```bash
+npm install
+```
+
+  
+
+5. Run the development server:
 
 ```bash
 npm run dev
@@ -9,69 +47,85 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More+
+
+---
+### Folder Structure
+
+- **Page Location**: Each website page resides in a dedicated folder within the `app` directory.
+  - Example: `/app/home/page.jsx`, `/app/contact/page.jsx`
 
 
-### Convert HTML to React
+- **Layout Constraints**:
+  - Do **not** include `<html>`, `<head>`, or `<body>` tags in your `page.jsx` files. the content you write inside page.jsx automatically wrapped inside  `<body>{you content}</body>` element as defined in layout.jsx
+  
+  - Do **not** manually import Bootstrap-related CSS, JavaScript, or Icon  libraries in your `page.js` files.
+  These resources are **pre-installed** and will function automatically across all pages.
 
-1. **Page Folder Rules**  
-   - In the `page` folder, you are already inside the `<body>` tag.  
-     - **No need to add the `<body>` or `<head>` tags**.
 
-2. **Component Structure**  
-   - Create reusable components inside the `components` folder.  
-   - Import those components into the `page` folder.
 
-3. **Self-Closing Tags**  
-   - Ensure all self-closing tags are properly formatted. Example:  
-     ```html
-     <img />
-     ```
-     4- use camelCase for atribut like clip-rule will be clipRule and fill-rule will be fillRule and stroke-linecap will be strokeLinecap
+- ❌ Do **not** import:
+  - `Bootstrap.css`
+  - `BootstrapJS`
+  - `BootstrapIcons`
 
-4. **Change `class` to `className`**  
-   - Replace `class` attributes with `className`. Example:  
+
+- **Component Organization**:
+  - Store page-specific components in a `components` folder within each page's directory.
+  - Use **PascalCase** for component and module file names.
+
+#### Naming Convention Examples
+
+- Component File: `HeroSection.jsx`
+- Scss File: `HeroSection.module.scss`
+
+-----
+## Convert HTML to React  
+
+### 1. **Self-Closing Tags**  
+
+Ensure all self-closing tags are properly formatted. Examples include:  
+
+- Images:  
+  ```html
+  <img />
+  ```  
+
+- Input Fields:  
+  ```html
+  <input type="text" />
+  ```
+
+
+2. **Change `class` to `className`**  
+    
+   
+   
      ```html
      <div class="container"></div>
-     ```
+     ```  
      Becomes:  
      ```jsx
      <div className="container"></div>
-     ```
-
-5. **Path Adjustment for Images**  
-   - Change image paths from:  
-     ```jsx
-     ./assets/images/
      ```  
-     To:  
+
+3. **Attribute Naming**  
+   - Convert attributes to camelCase:  
+     - `for` → `htmlFor`  
+     - `clip-rule` → `clipRule`  
+     - `fill-rule` → `fillRule`  
+     - `stroke-linecap` → `strokeLinecap`  
+
+
+
+4. **SCSS Modules**  
+   - to Use `styles` form scss module:  
+   
+   
      ```jsx
-     /images
-     ```
+     <div className={styles.customClass}></div>
+     ```  
 
-6. **Using SCSS Modules**  
-   - When using SCSS modules, convert `class` to `className` using the `styles` object. Example:  
-     ```jsx
-     <div className={styles.className}></div>
-     ```
-   - **Important**:  
-     Not all classes need to be converted this way. **Only custom classes** should use `styles.className`.  
-     Bootstrap classes remain unchanged.
-
-7. **Automating `class` to `className` Conversion**  
-   - Use VS Code's search and replace feature:  
-     - Press `Ctrl + F`.  
-     - Tick the **regular expression** icon (.*).  
-     - Find:  
-       ```regex
-       class="([^"]+)"
-       ```  
-     - Replace with:  
-       ```jsx
-       className={styles.$1}
-       ```
-
-8. **Bootstrap Classes Compatibility**  
+5. **Bootstrap Classes Compatibility**  
    - Some Bootstrap classes may not work properly when mixed with SCSS modules. For example:  
      ```jsx
      className="accordion-body"
@@ -101,4 +155,47 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-This version uses proper **Markdown** formatting, adds clarity, and improves readability with code blocks and headings.
+## **Paths**  
+- Update all paths starting with `./assets` to start with `/` instead.  
+
+Example:  
+```jsx
+./assets/images/ → /images
+```  
+
+-----
+### Adding Features
+
+1. Ensure you are on the `Level-two` branch:
+
+```bash
+git switch Level-two
+```
+
+2. Create a new branch for your task with descriptive name:
+le
+```bash
+git checkout -b feat/adding-footer
+```
+
+3. Make your changes.
+
+  
+
+4. Track your changes:
+
+```bash
+git add .
+```
+
+5. Commit with a meaningful message:
+
+```bash
+git commit -m "Adding the FooterSection"
+```
+
+6. Push your changes to the new branch:
+
+```bash
+git push origin feat/adding-footer
+```
