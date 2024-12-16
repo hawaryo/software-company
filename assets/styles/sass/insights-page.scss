@@ -1,6 +1,10 @@
 @use "./color" as color;
 @use "./font" as font;
-
+.hero-section{
+  .main-image{
+    object-fit: cover;
+  }
+}
 .news-letter .btn,
 .green-bg,
 .top-section small a {
@@ -8,7 +12,7 @@
 }
 .second-a {
   color: #0f604d;
-  // background-color: ;
+  
 }
 .rounded-avatar {
   height: 24px;

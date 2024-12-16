@@ -10,6 +10,10 @@
   font-family: "Graphik-Semibold";
   src: url("/assets/fonts/Graphik-Semibold.otf") format("opentype");
 }
+.hero-section .main-image {
+  object-fit: cover;
+}
+
 .news-letter .btn,
 .green-bg,
 .top-section small a {
