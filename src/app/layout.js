@@ -2,16 +2,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BootstrapClient from "../utils/BootstrapClient";
 import "../styles/globals.css";
-
+import Footer from "@/components/shared/Footer";
+import NavBar from "@/components/shared/NavBar";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-       
+        <NavBar />
         {children}
-      
-      <BootstrapClient />
+        <Footer />
+        <BootstrapClient />
       </body>
     </html>
   );
