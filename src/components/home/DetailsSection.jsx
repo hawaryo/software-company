@@ -152,7 +152,7 @@ export default function DetailsSection() {
           </p>
 
           <div className={styles.featuresList}>
-            <div>
+            <div className={styles.featuresListCard}>
               <div className={styles.featureIcon}>
                 <svg
                   width="24"
@@ -173,7 +173,7 @@ export default function DetailsSection() {
               <p>Offers a unified platform that fosters innovation.</p>
             </div>
 
-            <div>
+            <div className={styles.featuresListCard}>
               <div className={styles.featureIcon}>
                 <svg
                   width="24"

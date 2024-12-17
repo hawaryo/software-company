@@ -1,4 +1,3 @@
-import styles from "./page.module.scss";
 import HomeHeader from "@/components/home/HomeHeader";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import DetailsSection from "@/components/home/DetailsSection";
