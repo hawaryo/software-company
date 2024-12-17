@@ -1,11 +1,11 @@
 import HomeHeader from "@/components/home/HomeHeader";
-import FeaturesSection from "@/components/home/FeaturesSection";
-import DetailsSection from "@/components/home/DetailsSection";
-import PricingSection from "@/components/home/PricingSection";
-import FeedbackSection from "@/components/home/FeedbackSection";
-import QuestionSection from "@/components/home/QuestionSection";
-import TeamSection from "@/components/home/TeamSection";
-import InsightsSection from "@/components/home/InsightsSection";
+import FeaturesSection from "@/components/home/HomeFeaturesSection";
+import DetailsSection from "@/components/home/HomeDetailsSection";
+import PricingSection from "@/components/home/HomePricingSection";
+import FeedbackSection from "@/components/home/HomeFeedbackSection";
+import QuestionSection from "@/components/home/HomeQuestionSection";
+import TeamSection from "@/components/home/HomeTeamSection";
+import InsightsSection from "@/components/home/HomeInsightsSection";
 
 export const metadata = {
   title: "Software Company",

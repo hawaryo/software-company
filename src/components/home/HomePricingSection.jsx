@@ -1,4 +1,4 @@
-import styles from "./PricingSection.module.scss";
+import styles from "./HomePricingSection.module.scss";
 
 export default function PricingSection() {
   return (

@@ -1,4 +1,4 @@
-import styles from "./FeaturesSection.module.scss";
+import styles from "./HomeFeaturesSection.module.scss";
 
 export default function FeaturesSection() {
   return (

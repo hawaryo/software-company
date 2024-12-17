@@ -1,4 +1,4 @@
-import styles from "./InsightsSection.module.scss";
+import styles from "./HomeInsightsSection.module.scss";
 
 export default function InsightsSection() {
   return (

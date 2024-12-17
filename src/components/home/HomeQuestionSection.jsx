@@ -1,4 +1,4 @@
-import styles from "./QuestionSection.module.scss";
+import styles from "./HomeQuestionSection.module.scss";
 
 export default function QuestionSection() {
   return (

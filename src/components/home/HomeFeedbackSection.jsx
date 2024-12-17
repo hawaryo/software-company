@@ -1,4 +1,4 @@
-import styles from "./FeedbackSection.module.scss";
+import styles from "./HomeFeedbackSection.module.scss";
 
 export default function FeedbackSection() {
   return (

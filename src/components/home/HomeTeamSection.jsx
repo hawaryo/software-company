@@ -1,4 +1,4 @@
-import styles from "./TeamSection.module.scss";
+import styles from "./HomeTeamSection.module.scss";
 
 export default function TeamSection() {
   return (

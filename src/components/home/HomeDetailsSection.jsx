@@ -1,4 +1,4 @@
-import styles from "./DetailsSection.module.scss";
+import styles from "./HomeDetailsSection.module.scss";
 
 export default function DetailsSection() {
   return (
