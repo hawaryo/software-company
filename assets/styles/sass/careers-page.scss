@@ -12,9 +12,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: font.$primary-font
 }
+
 ul {
   list-style: none;
 }
@@ -30,22 +32,24 @@ ul {
 
 /* Start Career Hero*/
 .section {
-  margin-block: 4rem;
+  padding-block: 4rem;
 }
+
 .careers {
-  text-align: center;
 background: linear-gradient(white, #F5EEE9);
   position: relative;
-max-height: 736px;
+  max-height: 826px;
   .container {
     .career-top {
       max-width: 50rem;
       margin: 0 auto;
+
       h1 {
         font-size: 3rem;
         letter-spacing: -2px;
-        font-weight: bold;
+        font-weight: bolder;
       }
+
       p {
         font-size: 1.2rem;
         margin-top: 1rem;
@@ -53,49 +57,53 @@ max-height: 736px;
         opacity: 0.8;
       }
     }
+
     .career-bottom {
-        overflow: hidden;
-        // border-radius: 20px;
+      overflow: hidden;
+      border-radius: 20px;
+
       img {
         max-width: 100%;
-        border-radius: 10px;
+        border-radius: 20px;
         width: 75rem;
         height: 37rem;
         object-fit: cover;
         max-height: 100%;
-            &:hover {
-              transform: scale(1.02);
-              transition: 0.3s ease-in-out all;
-            }
+
+        &:hover {
+          transform: scale(1.02);
+          transition: 0.3s ease-in-out all;
+        }
 
       }
     }
   }
 }
+
 /* End Career Hero*/
 
 /* Start career benefits Hero*/
 .benefits {
-  margin-top: 10rem;
-  text-align: left;
+margin-top: 4rem;
+
   .container {
-    max-width: 50rem;
-    margin: 0 auto;
     opacity: 0.7;
     font-size: 1.2rem;
     line-height: 2rem;
+
     .career-benefits-top {
-      max-width: 50rem;
+      font-size: 1.3rem;
+      line-height: 2;
+      margin-top: 4rem;
     }
+
     .career-benefits-bottom {
       .benefit {
-        padding: 10px;
-        padding-left: 0;
+        padding-block: 10px;
+
         i {
           color: color.$quaternary-color;
-          margin-right: 5px;
-        }
-        span {
+          margin-right: 10px;
         }
       }
     }
@@ -107,9 +115,10 @@ max-height: 736px;
 /* Start career openings Hero*/
 .openings {
   background-color: color.$tertiary-color;
+
   .container {
-    max-width: 55rem;
     margin: 0 auto;
+
     h2 {
       text-align: center;
       font-size: 2.5rem;
@@ -117,24 +126,28 @@ max-height: 736px;
       padding-block: 3rem;
       font-weight: bold;
     }
+
     .cards {
       .card {
         padding: 20px;
-        margin-right: 20px;
         margin-bottom: 20px;
         border-radius: 20PX;
         border: none;
+
         .details {
           h5 {
-            font-size: 1rem;
-            font-weight: bold;
+            font-size: 1.3rem;
+            font-weight: bolder;
+            letter-spacing: -1px;
           }
+
           span {
             font-size: 1rem;
             opacity: 0.7;
             font-size: 0.9rem;
           }
         }
+
         a {
           align-self: flex-end;
           color: color.$quaternary-color;
@@ -144,10 +157,10 @@ max-height: 736px;
           margin-top: 10px;
           font-size: 0.85rem;
           padding-bottom: 5px;
-          h5 {
-          }
-          span {
-          }
+
+          h5 {}
+
+          span {}
         }
       }
     }
@@ -159,47 +172,59 @@ max-height: 736px;
 /* Start feedbacks Hero*/
 
 .feedbacks {
-  // background-color: color.$tertiary-color;
   text-align: center;
+  padding-bottom: 0;
+
   .container {
-    max-width: 55rem;
-    margin: 0 auto;
     h2 {
       text-align: center;
       font-size: 2.5rem;
       letter-spacing: -2px;
       padding-bottom: 3rem;
       font-weight: bold;
+
     }
+
     .cards {
       .card {
         padding: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
         text-align: left;
-        img {
-          width: 130px;
+
+        div.feed {
+
+          img {
+            display: block;
+            margin-bottom: 20px;
+          }
+
+          q {
+            opacity: 0.7;
+            margin-block: 20px;
+            font-size: 1.1rem;
+          }
         }
-        q {
-          opacity: 0.7;
-          margin-block: 20px;
-          font-size: 1.1rem;
-        }
+
         div.customer {
           display: flex;
           justify-content: left;
           align-items: center;
           gap: 10px;
+
           img {
             width: 35px;
             border-radius: 50%;
           }
+
           div.customer-details {
             margin-top: 10px;
             line-height: 0.4rem;
+
             h6 {
               font-weight: bold;
             }
+
             p {
               font-size: .8rem;
               opacity: 0.7;
@@ -208,17 +233,16 @@ max-height: 736px;
         }
       }
     }
+
     a {
       text-align: center;
       color: color.$quaternary-color;
       text-decoration: none;
       font-weight: bold;
-      span {
 
-      }
-      i {
+      span {}
 
-      }
+      i {}
     }
   }
 }
@@ -229,14 +253,22 @@ max-height: 736px;
 .trusted_brands {
 
   .container {
-    max-width: 55rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 15px;
+    justify-items: center;
+
+    .row {
+      justify-content: center;
+
+      img {
+        &:first-of-type {
+          width: 60px;
+        }
+
+        width: 150px;
+      }
+    }
   }
 }
+
 /* End trusted_brands Hero*/
 
 
@@ -244,11 +276,8 @@ max-height: 736px;
 .blog_posts {
   background-color: color.$tertiary-color;
   text-align: center;
-  margin-bottom: 0;
-    padding-bottom: 64px;
+
   .container {
-    max-width: 75rem;
-    margin: 0 auto;
     h2 {
       text-align: center;
       font-size: 2.5rem;
@@ -256,13 +285,17 @@ max-height: 736px;
       padding-block: 3rem;
       font-weight: bold;
     }
+
     .cards {
+      margin-bottom: 30px;
+
       .card {
         padding: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
         position: relative;
         border-radius: 20px;
+
         div.fixed {
           position: absolute;
           background-color: color.$quaternary-color;
@@ -273,12 +306,14 @@ max-height: 736px;
           font-weight: bold;
           z-index: 3;
         }
+
         a {
           overflow: hidden;
           border-radius: 20px;
 
           img {
             max-width: 100%;
+
             &:hover {
               transform: scale(1.03);
               transition: 0.3s ease-in-out;
@@ -286,27 +321,33 @@ max-height: 736px;
 
           }
         }
+
         .details {
           h5 {
             padding: 20px;
+
             a {
               text-decoration: none;
               font-weight: bold;
               color: color.$secondary-color;
             }
           }
+
           div.puplisher {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
+
             img {
               border-radius: 50%;
               width: 30px;
-              
+
             }
+
             span {
               font-weight: bold;
+
               &:last-of-type {
                 opacity: 0.7;
               }
@@ -315,19 +356,18 @@ max-height: 736px;
         }
       }
     }
+
     a.view {
       text-align: center;
       color: color.$quaternary-color;
       text-decoration: none;
       font-weight: bold;
 
-      span {
+      span {}
 
-      }
-      i {
-
-      }
+      i {}
     }
   }
 }
+
 /* End blog_posts Hero*/

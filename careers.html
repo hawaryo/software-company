@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <!--  npm run build-css -->
+    <!--  import font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -24,24 +24,26 @@
     <!-- Link homepage.css  -->
     <link rel="stylesheet" href="/assets/styles/css/careers-page.css" />
   </head>
+
   <body>
     <header>
       <navbar-component></navbar-component>
     </header>
-    <!-- /* Start Career Hero*/ -->
-    <section id="careers" class="careers section">
+     <!-- /* Start Career Hero*/ -->
+    <section id="careers" class="careers section text-center">
       <div class="container">
-        <div class="career-top">
-          <h1>Careers.</h1>
-          <p>
+        <div class="career-top row">
+          <h1 class="col-12">Careers.</h1>
+          <p class="col-12">
             We are looking for people that share our vision. Are you adaptable,
             driven, and friendly? Do you thrive in a fast-paced work environment
             where collaboration is the norm? If the answer is yes, then you’re a
             what we looking for.
           </p>
         </div>
-        <div class="career-bottom">
+        <div class="career-bottom row">
           <img
+            class="col"
             src="./assets/images/career-page/career-hero.jpg"
             alt="career hero image"
           />
@@ -52,286 +54,321 @@
     <!-- /* Start career benefits Hero*/ -->
     <section id="benefits" class="benefits section pt-5 pt-lg-0 pt-md-0">
       <div class="container">
-        <div class="career-benefits-top">
-          We love our people and want to ensure that they are supported at work
-          and at home. That’s what helps us maintain our coveted best work-life
-          balance award.
-          <br />
-          Here are just some of the perks you can expect to receive while
-          working for us:
+        <div class="row justify-content-center">
+          <div class="career-benefits-top col-12 col-lg-9 mb-4">
+            We love our people and want to ensure that they are supported at
+            work and at home. That’s what helps us maintain our coveted best
+            work-life balance award.
+            <br />
+            Here are just some of the perks you can expect to receive while
+            working for us:
+          </div>
         </div>
-        <div class="career-benefits-bottom d-flex flex-wrap mt-4">
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Competitive salary</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Company equity</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span> Regular outings</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Career growth</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Education benefits</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Holidays</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Health benefits</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Flexible schedule</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span> Office trips</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span>Fun team</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span> Commuter benefits</span>
-          </div>
-          <div class="benefit col-12 col-md-6 col-lg-4">
-            <i class="fa-solid fa-check"></i>
-            <span> Generous PTO</span>
+
+        <div class="career-benefits-bottom row justify-content-center">
+          <div class="col-12 col-lg-9">
+            <div class="row">
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Competitive salary</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Company equity</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Regular outings</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Career growth</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Education benefits</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Holidays</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Health benefits</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Flexible schedule</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Office trips</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Fun team</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Commuter benefits</span>
+              </div>
+              <div class="benefit col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-check"></i>
+                <span>Generous PTO</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- /* End career benefits Hero*/ -->
     <!-- /* Start career openings Hero*/ -->
     <section id="openings" class="openings section">
       <div class="container">
-        <h2>Current openings</h2>
-        <div class="cards d-flex flex-wrap">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Senior Frontend Engineer, Core</h5>
-                <span>Remotly</span>
+        <div class="row">
+          <h2 class="col-12">Current openings</h2>
+        </div>
+        <div class="cards d-flex flex-wrap justify-content-center row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Senior Frontend Engineer, Core</h5>
+                    <span>Remotely</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Senior Frontend Engineer, AI</h5>
-                <span>Remotly</span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Senior Frontend Engineer, AI</h5>
+                    <span>Remotely</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Senior Python Engineer, Growth</h5>
-                <span>In-house</span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Senior Python Engineer, Growth</h5>
+                    <span>In-house</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Director of Accounting</h5>
-                <span>In-house </span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Director of Accounting</h5>
+                    <span>In-house</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Director, Marketing Operations</h5>
-                <span>In-house (Preferably), Remotly</span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Director, Marketing Operations</h5>
+                    <span>In-house (Preferably), Remotely</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Team Lead, Data Science</h5>
-                <span>Remotly</span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Team Lead, Data Science</h5>
+                    <span>Remotely</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <div class="details">
-                <h5>Director of Product Research</h5>
-                <span>In-house (Preferably), Remotly </span>
+              <div class="col-12 col-lg-6 mb-3">
+                <div class="card">
+                  <div class="details">
+                    <h5>Director of Product Research</h5>
+                    <span>In-house (Preferably), Remotely</span>
+                  </div>
+                  <a href="#" class="apply">
+                    <span>Apply now</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
               </div>
-              <a href="#" class="apply">
-                <span>Apply now</span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- /* End career openings Hero*/ -->
     <!-- /* Start feedbacks Hero*/ -->
     <section id="feedbacks" class="feedbacks section">
       <div class="container">
-        <h2>What clients said about us:</h2>
-        <div class="cards d-flex flex-wrap justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <img
-                src="./assets/images/career-page/brands/brand-1.PNG"
-                alt="brand-1"
-              />
-              <q
-                >We’re looking for people who share our vision! most of our time
-                used to be taken up by most of alternate administrative work
-                whereas now we can focus on building out to help our
-                employees.</q
-              >
-              <div class="customer">
-                <img
-                  src="./assets/images/career-page/avatar/avatar-1.png"
-                  alt="avatar-1"
-                />
-                <div class="customer-details">
-                  <h6>Mark Zellers</h6>
-                  <p>CEO, Co-Founder.</p>
+        <div class="row">
+          <h2 class="col-12">What clients said about us:</h2>
+        </div>
+        <div class="cards d-flex flex-wrap justify-content-center row">
+          <div class="col-lg-10">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                  <div class="feed mb-lg-5 mb-md-4 mb-3">
+                    <img
+                      src="./assets/images/career-page/brands/brand-1.PNG"
+                      alt="brand-1"
+                    />
+                    <q
+                      >We’re looking for people who share our vision! most of
+                      our time used to be taken up by most of alternate
+                      administrative work whereas now we can focus on building
+                      out to help our employees. Regulation</q
+                    >
+                  </div>
+                  <div class="customer">
+                    <img
+                      src="./assets/images/career-page/avatar/avatar-1.png"
+                      alt="avatar-1"
+                    />
+                    <div class="customer-details">
+                      <h6>Mark Zellers</h6>
+                      <p>CEO, Co-Founder.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <img
-                src="./assets/images/career-page/brands/brand-2.PNG"
-                alt="brand-1"
-              />
-              <q
-                >This powerfull tool eliminates the need to leave Salesforce to
-                get things done as I can create a custom proposal with dynamic
-                pricing tables, and get approval from my boss all within 36
-                minutes.</q
-              >
-              <div class="customer">
-                <img
-                  src="./assets/images/career-page/avatar/avatar-2.png"
-                  alt="avatar-1"
-                />
-                <div class="customer-details">
-                  <h6>Mark Zellers</h6>
-                  <p>CEO, Co-Founder.</p>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                  <div class="feed mb-lg-5 mb-md-4 mb-3">
+                    <img
+                      src="./assets/images/career-page/brands/brand-2.PNG"
+                      alt="brand-2"
+                    />
+                    <q
+                      >This powerfull tool eliminates the need to leave
+                      Salesforce to get things done as I can create a custom
+                      proposal with dynamic pricing tables, and get approval
+                      from my boss all within 36 minutes.</q
+                    >
+                  </div>
+                  <div class="customer">
+                    <img
+                      src="./assets/images/career-page/avatar/avatar-2.png"
+                      alt="avatar-2"
+                    />
+                    <div class="customer-details">
+                      <h6>Natalia Larsson</h6>
+                      <p>Director of Sales</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card">
-              <img
-                src="./assets/images/career-page/brands/brand-3.PNG"
-                alt="brand-1"
-              />
-              <q
-                >We are based in Europe and the latest Data Protection
-                Regulation forces us to look for service suppliers than comply
-                with this regulation and as we look to create our website and
-                this builder!</q
-              >
-              <div class="customer">
-                <img
-                  src="./assets/images/career-page/avatar/avatar-3.png"
-                  alt="avatar-1"
-                />
-                <div class="customer-details">
-                  <h6>Mark Zellers</h6>
-                  <p>CEO, Co-Founder.</p>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                  <div class="feed mb-lg-5 mb-md-4 mb-3">
+                    <img
+                      src="./assets/images/career-page/brands/brand-3.PNG"
+                      alt="brand-3"
+                    />
+                    <q
+                      >We are based in Europe and the latest Data Protection
+                      Regulation forces us to look for service suppliers than
+                      comply with this regulation and as we look to create our
+                      website and this builder!</q
+                    >
+                  </div>
+                  <div class="customer">
+                    <img
+                      src="./assets/images/career-page/avatar/avatar-3.png"
+                      alt="avatar-3"
+                    />
+                    <div class="customer-details">
+                      <h6>Sarah Edrissi</h6>
+                      <p>Lead Marketing</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <a href="#">
-          <span>See all feedbacks</span>
-          <i class="fa-solid fa-arrow-right"></i>
-        </a>
+        <div class="row">
+          <a href="#" class="col-12 mt-5">
+            <span>See all feedbacks</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
     </section>
     <!-- /* End feedbacks Hero*/ -->
     <!-- /* Start trusted_brands Hero*/ -->
     <section id="trusted_brands" class="trusted_brands section">
       <div class="container">
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-1.svg"
-          alt="trustedBrand"
-        />
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-2.svg"
-          alt="trustedBrand"
-        />
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-3.svg"
-          alt="trustedBrand"
-        />
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-4.svg"
-          alt="trustedBrand"
-        />
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-5.svg"
-          alt="trustedBrand"
-        />
-        <img
-          src="./assets/images/career-page/trusted-brands/trustedBrand-6.svg"
-          alt="trustedBrand"
-        />
+        <div class="col-lg-10 ">
+          <div class="row">
+            <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-1.svg"
+            alt="trustedBrand"
+          />
+          <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-2.svg"
+            alt="trustedBrand"
+          />
+          <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-3.svg"
+            alt="trustedBrand"
+          />
+          <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-4.svg"
+            alt="trustedBrand"
+          />
+          <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-5.svg"
+            alt="trustedBrand"
+          />
+          <img class="col-2"
+            src="./assets/images/career-page/trusted-brands/trustedBrand-6.svg"
+            alt="trustedBrand"
+          />
+          </div>
+        </div>
       </div>
     </section>
     <!-- /* End trusted_brands Hero*/ -->
     <!-- /* Start blog_posts Hero*/ -->
     <section id="blog_posts" class="blog_posts section">
       <div class="container">
-        <h2>Gain valuable insights</h2>
-        <div class="cards d-flex flex-wrap">
+        <div class="row">
+          <h2 class="col-12">Gain valuable insights</h2>
+        </div>
+        <div class="cards d-flex flex-wrap row">
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
             <div class="card">
               <div class="fixed">Strategy</div>
               <a href="#"
                 ><img
-                  src="./assets/images/career-page/valuable insights/valuable-insights-1.jpg"
+                  src="./assets/images/career-page/valuable-insights/valuable-insights-1.jpg"
                   alt="valuable-insights"
               /></a>
               <div class="details">
@@ -352,7 +389,7 @@
               <div class="fixed">Marketing</div>
               <a href="#"
                 ><img
-                  src="./assets/images/career-page/valuable insights/valuable-insights-2.jpg"
+                  src="./assets/images/career-page/valuable-insights/valuable-insights-2.jpg"
                   alt="valuable-insights"
               /></a>
               <div class="details">
@@ -373,7 +410,7 @@
               <div class="fixed">Business</div>
               <a href="#"
                 ><img
-                  src="./assets/images/career-page/valuable insights/valuable-insights-3.jpg"
+                  src="./assets/images/career-page/valuable-insights/valuable-insights-3.jpg"
                   alt="valuable-insights"
               /></a>
               <div class="details">
@@ -390,12 +427,13 @@
             </div>
           </div>
         </div>
-        <a class="view" href="#">
+        <a class="view" href="/insights.html">
           <span>View more articles</span>
           <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
     </section>
+    <!-- /* End blog_posts Hero*/ -->
     <!-- import footer component -->
     <script type="module" src="./assets/component/footer.js"></script>
 
