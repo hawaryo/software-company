@@ -1,7 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import styles from "./CareerBenefitsSection.module.scss";
-import { benefits } from "./data";
+import { benefits } from "../../data/CareersPageData";
 import Benefit from "./subComponents/Benefit";
 
 function CareerBenefitsSection() {

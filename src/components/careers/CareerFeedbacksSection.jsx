@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CareerFeedbacksSection.module.scss";
-import { feedbacks } from "./data";
+import { feedbacks } from "../../data/CareersPageData";
 import Feedback from "./subComponents/Feedback";
 
 function CareerFeedbacksSection() {

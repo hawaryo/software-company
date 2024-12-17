@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CareerOpeningsSection.module.scss";
-import { openings } from "./data";
+import { openings } from "../../data/CareersPageData";
 import Opening from "./subComponents/Opening";
 
 function CareerOpeningsSection() {

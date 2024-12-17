@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./TrustedBrandsSection.module.scss";
-import { trustedBrands } from "./data";
+import { trustedBrands } from "../../data/CareersPageData";
 import TrustedBrand from "./subComponents/TrustedBrand";
 function TrustedBrandsSection() {
   return (

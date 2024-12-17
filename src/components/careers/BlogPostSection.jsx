@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BlogPostSection.module.scss";
-import { posts } from "./data";
+import { posts } from "../../data/CareersPageData";
 import Post from "./subComponents/Post";
 function BlogPostSection() {
   return (
