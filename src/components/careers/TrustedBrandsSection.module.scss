@@ -9,18 +9,23 @@
 }
 
 .trusted_brands {
- margin-inline: auto;
+  margin-inline: auto;
+
   .container {
     justify-items: center;
+
     .row {
       justify-content: center;
+
       img {
         &:first-of-type {
           width: 60px;
         }
+
         width: 150px;
       }
     }
   }
 }
+
 /* End trusted_brands Hero*/

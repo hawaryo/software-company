@@ -11,6 +11,7 @@
 .blog_posts {
   background-color: color.$tertiary-color;
   text-align: center;
+
   .container {
     h2 {
       text-align: center;
@@ -19,9 +20,11 @@
       padding-block: 3rem;
       font-weight: bold;
     }
+
     .cards {
       margin-bottom: 30px;
     }
+
     a.view {
       text-align: center;
       color: color.$quaternary-color;

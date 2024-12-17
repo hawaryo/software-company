@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 /* import '@fortawesome/fontawesome-free/css/all.min.css'; */
-import styles from './CareerBenefitsSection.module.scss'
+import styles from "./CareerBenefitsSection.module.scss";
 import { benefits } from "./data";
-import Benefit from './subComponents/Benefit';
-
+import Benefit from "./subComponents/Benefit";
 
 function CareerBenefitsSection() {
-  
   return (
     <section
       id="benefits"
@@ -42,4 +40,4 @@ function CareerBenefitsSection() {
   );
 }
 
-export default CareerBenefitsSection
+export default CareerBenefitsSection;

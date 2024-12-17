@@ -1,11 +1,14 @@
-import React from 'react'
-import styles from './CareerHeroSection.module.scss'
+import React from "react";
+import styles from "./CareerHeroSection.module.scss";
 
 function CareerHeroSection() {
   return (
-    <section id="careers" className={`${styles.careers} ${styles.section} text-center`}>
+    <section
+      id="careers"
+      className={`${styles.careers} ${styles.section} text-center`}
+    >
       <div className={`container ${styles.container}`}>
-        <div className={`${styles['career-top']} row`}>
+        <div className={`${styles["career-top"]} row`}>
           <h1 className="col-12">Careers.</h1>
           <p className="col-12">
             We are looking for people that share our vision. Are you adaptable,
@@ -14,7 +17,7 @@ function CareerHeroSection() {
             what we looking for.
           </p>
         </div>
-        <div className={`${styles['career-bottom']} row`}>
+        <div className={`${styles["career-bottom"]} row`}>
           <img
             className="col"
             src="/images/career-page/career-hero.jpg"
@@ -23,7 +26,7 @@ function CareerHeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default CareerHeroSection
+export default CareerHeroSection;

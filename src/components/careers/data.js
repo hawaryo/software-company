@@ -94,7 +94,7 @@ export const posts = [
     postTitle: "Top 5 reasons to invest in marketing",
     puplisherImage: "/images/career-page/avatar/avatar-2.png",
     puplisherName: "David .",
-    date: " Apr 3, 2024"
+    date: " Apr 3, 2024",
   },
   {
     label: "Marketing",
@@ -102,7 +102,7 @@ export const posts = [
     postTitle: "How can marketing help your business?",
     puplisherImage: "/images/career-page/avatar/avatar-2.png",
     puplisherName: "Allen .",
-    date: " Apr 3, 2024"
+    date: " Apr 3, 2024",
   },
   {
     label: "business",
@@ -110,6 +110,6 @@ export const posts = [
     postTitle: "The ultimate guide to marketing success",
     puplisherImage: "/images/career-page/avatar/avatar-1.png",
     puplisherName: "Kevin .",
-    date: " Apr 3, 2024"
+    date: " Apr 3, 2024",
   },
-]
+];

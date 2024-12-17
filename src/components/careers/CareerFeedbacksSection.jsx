@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CareerFeedbacksSection.module.scss";
-import { feedbacks } from './data';
+import { feedbacks } from "./data";
 import Feedback from "./subComponents/Feedback";
 
 function CareerFeedbacksSection() {
@@ -8,22 +8,16 @@ function CareerFeedbacksSection() {
     <section id="feedbacks" className={`${styles.feedbacks} ${styles.section}`}>
       <div className={`container ${styles.container}`}>
         <div className="row">
-          <h2
-            className="col-12"
-          >
-            What clients said about us:
-          </h2>
+          <h2 className="col-12">What clients said about us:</h2>
         </div>
         <div
           className={`${styles.cards} cards d-flex flex-wrap justify-content-center row`}
         >
           <div className="col-lg-10">
             <div className="row">
-              {
-                feedbacks.map((feedback, index) => (
-                  <Feedback key={index} feedback={feedback}/>
-                ))
-              }
+              {feedbacks.map((feedback, index) => (
+                <Feedback key={index} feedback={feedback} />
+              ))}
             </div>
           </div>
         </div>
