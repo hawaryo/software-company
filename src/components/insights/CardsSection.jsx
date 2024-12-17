@@ -6,7 +6,9 @@ function CardsSection() {
       <div className="row g-4">
         {/* Card Template */}
         <div className="col-md-4 d-flex">
-          <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/post-2.jpg"
@@ -15,7 +17,9 @@ function CardsSection() {
               />
             </div>
             <div className="img-text ps-3 pe-3">
-              <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Business
               </span>
               <h4 className="text-center">
@@ -38,18 +42,20 @@ function CardsSection() {
           </div>
         </div>
         <div className="col-md-4">
-        <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
-
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/img-08.jpg"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
-
                 alt="card-image"
               />
             </div>
             <div className="img-text ps-3 pe-3">
-              <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Marketing
               </span>
               <h4 className="text-center">
@@ -72,18 +78,20 @@ function CardsSection() {
           </div>
         </div>
         <div className="col-md-4">
-        <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
-
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/img-06.jpg"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
-
                 alt="card-image"
               />
             </div>
             <div className="img-text ps-3 pe-3">
-              <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Strategy
               </span>
               <h4 className="text-center">
@@ -106,18 +114,20 @@ function CardsSection() {
           </div>
         </div>
         <div className="col-md-4 d-flex">
-        <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
-
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/img-05.jpg"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
-
                 alt="card-image"
               />
             </div>
             <div className="img-text ps-3 pe-3">
-              <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Strategy
               </span>
               <h4 className="text-center">
@@ -140,19 +150,20 @@ function CardsSection() {
           </div>
         </div>
         <div className="col-md-4 d-flex">
-        <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
-
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/img-11.jpg"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
-
                 alt="card-image"
               />
             </div>
             <div className="img-text ps-3 pe-3">
-             
-              <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Boost
               </span>
               <h4 className="text-center">
@@ -175,19 +186,20 @@ function CardsSection() {
           </div>
         </div>
         <div className="col-md-4 d-flex">
-        <div className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}>
-
+          <div
+            className={`${styles["card-style"]} card rounded-4 border-0 pb-2 flex-fill`}
+          >
             <div className="p-3">
               <img
                 src="/images/insights-page/img-10.jpg"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
-
                 alt="card-image"
               />
             </div>
             <div className="img-text ps-3 pe-3">
-            <span className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}>
-
+              <span
+                className={`badge ${styles["badge-style"]} bg-success mb-2 p-2 rounded-3`}
+              >
                 Business
               </span>
               <h4 className="text-center">

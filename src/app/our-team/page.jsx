@@ -1,4 +1,4 @@
-import styles from "./page.module.scss";
+
 
 export const metadata = {
   title: "Our Team",
