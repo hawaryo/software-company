@@ -23,7 +23,7 @@ function CareerFeedbacksSection() {
         </div>
         <div className="row">
           <a href="#" className="col-12 mt-5">
-            <span>See all feedbacks</span>
+            <span>See all feedbacks </span>
             <i className="fa-solid fa-arrow-right"></i>
           </a>
         </div>

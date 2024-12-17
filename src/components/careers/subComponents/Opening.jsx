@@ -10,7 +10,7 @@ function Opening({ opening }) {
           <span>{opening.location}</span>
         </div>
         <a href="#" className="apply">
-          <span>Apply now</span>
+          <span>Apply now </span>
           <i className="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>

@@ -18,7 +18,7 @@ function BlogPostSection() {
           ))}
         </div>
         <a className={`${styles.view}`} href="/insights.html">
-          <span>View more articles</span>
+          <span>View more articles </span>
           <i className="fa-solid fa-arrow-right"></i>
         </a>
       </div>
