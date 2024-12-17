@@ -11,13 +11,14 @@ export const metadata = {
 };
 
 export default function CareersPage() {
-  return <>
-    <CareerHeroSection />
-    <CareerBenefitsSection />
-    <TrustedBrandsSection />
-    <CareerOpeningsSection />
-    <CareerFeedbacksSection />
-    <BlogPostSection />
-  
-  </>;
+  return (
+    <>
+      <CareerHeroSection />
+      <CareerBenefitsSection />
+      <TrustedBrandsSection />
+      <CareerOpeningsSection />
+      <CareerFeedbacksSection />
+      <BlogPostSection />
+    </>
+  );
 }

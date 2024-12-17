@@ -7,7 +7,6 @@ import QuestionSection from "@/components/home/QuestionSection";
 import TeamSection from "@/components/home/TeamSection";
 import InsightsSection from "@/components/home/InsightsSection";
 
-
 export const metadata = {
   title: "Software Company",
   description: "Welcome to software company",
