@@ -13,7 +13,7 @@ export default function TeamSection() {
       <div className={styles.teamMembers}>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/01.jpg"
+            src="/images/home-page/team/01.webp"
             width="280px"
             className={styles.memberImg}
             alt="ceo"
@@ -23,7 +23,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/02.jpg"
+            src="/images/home-page/team/02.webp"
             width="280px"
             className={styles.memberImg}
             alt="José Gibbons Engineering Manager"
@@ -33,7 +33,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/03.jpg"
+            src="/images/home-page/team/03.webp"
             width="280px"
             className={styles.memberImg}
             alt="John Hewitt product manager"
@@ -43,7 +43,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/04.jpg"
+            src="/images/home-page/team/04.webp"
             width="280px"
             className={styles.memberImg}
             alt=" Jason Chedjou Frontend Developer"
@@ -53,7 +53,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/05.jpg"
+            src="/images/home-page/team/05.webp"
             width="280px"
             className={styles.memberImg}
             alt=" Zouhir Christensen Backend Developer"
@@ -63,7 +63,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/06.jpg"
+            src="/images/home-page/team/06.webp"
             width="280px"
             className={styles.memberImg}
             alt="Zaid Schwartz Product Designer"
@@ -73,7 +73,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/07.jpg"
+            src="/images/home-page/team/07.webp"
             width="280px"
             className={styles.memberImg}
             alt="Sarah Mandella UX Researcher"
@@ -83,7 +83,7 @@ export default function TeamSection() {
         </div>
         <div className={styles.memberCard}>
           <img
-            src="/images/home-page/team/08.jpg"
+            src="/images/home-page/team/08.webp"
             width="280px"
             className={styles.memberImg}
             alt="Marco Kelly Customer Success"

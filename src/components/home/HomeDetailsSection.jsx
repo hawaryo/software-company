@@ -6,7 +6,7 @@ export default function DetailsSection() {
       <div className={styles.detailsPrimaryContent}>
         <img
           className={styles.detailsMainImage}
-          src="/images/home-page/Details/detail-image-01.jpg"
+          src="/images/home-page/Details/detail-image-01.webp"
           width="950px"
           alt="150 plus conversion rate image"
         />
@@ -197,7 +197,7 @@ export default function DetailsSection() {
         </div>
         <img
           className={styles.detailsSecondaryImage}
-          src="/images/home-page/Details/detail-image-02.jpg"
+          src="/images/home-page/Details/detail-image-02.webp"
           width="950px"
           alt="daily average image"
         />

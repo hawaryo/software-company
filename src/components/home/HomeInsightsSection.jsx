@@ -20,7 +20,7 @@ export default function InsightsSection() {
         <div className={styles.postCard}>
           <img
             className={styles.postImg}
-            src="/images/home-page/posts/post-4.jpg"
+            src="/images/home-page/posts/post-4.webp"
             width="400px"
             height="290px"
             alt="UX presentation image"
@@ -37,7 +37,7 @@ export default function InsightsSection() {
         <div className={styles.postCard}>
           <img
             className={styles.postImg}
-            src="/images/home-page/posts/post-6.jpg"
+            src="/images/home-page/posts/post-6.webp"
             width="400px"
             height="290px"
             alt="api stack image"
@@ -54,7 +54,7 @@ export default function InsightsSection() {
         <div className={styles.postCard}>
           <img
             className={styles.postImg}
-            src="/images/home-page/posts/post-1.jpg"
+            src="/images/home-page/posts/post-1.webp"
             width="400px"
             height="290px"
             alt="software projects image"

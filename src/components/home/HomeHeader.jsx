@@ -28,22 +28,22 @@ export default function HomeHeader() {
             <div className={styles.userReviews}>
               <div className={styles.reviewerAvatars}>
                 <img
-                  src="/images/home-page/Header-images/reviewer-1.jpg"
+                  src="/images/home-page/Header-images/reviewer-1.webp"
                   alt="reviewer one"
                   width="50px"
                 />
                 <img
-                  src="/images/home-page/Header-images/reviewer-2.png"
+                  src="/images/home-page/Header-images/reviewer-2.webp"
                   alt="reviewer two"
                   width="50px"
                 />
                 <img
-                  src="/images/home-page/Header-images/reviewer-3.png "
+                  src="/images/home-page/Header-images/reviewer-3.webp "
                   alt="reviewer three"
                   width="50px"
                 />
                 <img
-                  src="/images/home-page/Header-images/reviewer-4.jpg"
+                  src="/images/home-page/Header-images/reviewer-4.webp"
                   alt="reviewer four"
                   width="50px"
                 />
@@ -76,19 +76,19 @@ export default function HomeHeader() {
           <div className={styles.heroImgContainer}>
             <img
               className={styles.heroImg}
-              src="/images/home-page/Header-images/hero.jpg"
+              src="/images/home-page/Header-images/hero.webp"
               alt="hero image"
               width="500px"
             />
             <img
               className={styles.accountImg}
-              src="/images/home-page/Header-images/account.png"
+              src="/images/home-page/Header-images/account.webp"
               alt="account sample"
               width="250px"
             />
             <img
               className={styles.countriesImg}
-              src="/images/home-page/Header-images/countries.png"
+              src="/images/home-page/Header-images/countries.webp"
               alt="multiple countries image"
               width="250px"
             />

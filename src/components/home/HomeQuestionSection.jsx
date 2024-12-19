@@ -139,17 +139,17 @@ export default function QuestionSection() {
       <div className={styles.questionCard}>
         <div className="images">
           <img
-            src="/images/home-page/Header-images/reviewer-1.jpg"
+            src="/images/home-page/Header-images/reviewer-1.webp"
             alt="reviewer one"
             width="50px"
           />
           <img
-            src="/images/home-page/Header-images/reviewer-2.png"
+            src="/images/home-page/Header-images/reviewer-2.webp"
             alt="reviewer two"
             width="50px"
           />
           <img
-            src="/images/home-page/Header-images/reviewer-3.png"
+            src="/images/home-page/Header-images/reviewer-3.webp"
             alt="reviewer three"
             width="50px"
           />
