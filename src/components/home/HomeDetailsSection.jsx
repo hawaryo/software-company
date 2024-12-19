@@ -9,6 +9,7 @@ export default function DetailsSection() {
           src="/images/home-page/Details/detail-image-01.webp"
           width="950px"
           alt="150 plus conversion rate image"
+          loading="lazy"
         />
 
         <div className={styles.detailsContentContainer}>
@@ -200,6 +201,7 @@ export default function DetailsSection() {
           src="/images/home-page/Details/detail-image-02.webp"
           width="950px"
           alt="daily average image"
+          loading="lazy"
         />
       </div>
     </section>

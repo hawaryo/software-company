@@ -17,6 +17,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="ceo"
+             loading="lazy"
           />
           <h6 className={styles.memberName}>Nilson Laurent</h6>
           <p className={styles.memberRole}>Founder &amp; CEO</p>
@@ -27,6 +28,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="José Gibbons Engineering Manager"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>José Gibbons</h6>
           <p className={styles.memberRole}>Engineering Manager</p>
@@ -37,6 +39,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="John Hewitt product manager"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>John Hewitt</h6>
           <p className={styles.memberRole}>Product Manager</p>
@@ -47,6 +50,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt=" Jason Chedjou Frontend Developer"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>Jason Chedjou</h6>
           <p className={styles.memberRole}>Frontend Developer</p>
@@ -57,6 +61,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt=" Zouhir Christensen Backend Developer"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>Zouhir Christensen</h6>
           <p className={styles.memberRole}>Backend Developer</p>
@@ -67,6 +72,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="Zaid Schwartz Product Designer"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>Zaid Schwartz</h6>
           <p className={styles.memberRole}>Product Designer</p>
@@ -77,6 +83,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="Sarah Mandella UX Researcher"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>Sarah Mandella</h6>
           <p className={styles.memberRole}>UX Researcher</p>
@@ -87,6 +94,7 @@ export default function TeamSection() {
             width="280px"
             className={styles.memberImg}
             alt="Marco Kelly Customer Success"
+            loading="lazy"
           />
           <h6 className={styles.memberName}>Marco Kelly</h6>
           <p className={styles.memberRole}>Customer Success</p>
