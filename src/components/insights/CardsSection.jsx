@@ -11,7 +11,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/post-2.jpg"
+                src="/images/insights-page/post-2.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -29,7 +29,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/02.png"
+                  src="/images/insights-page/02.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />
@@ -47,7 +47,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/img-08.jpg"
+                src="/images/insights-page/img-08.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -65,7 +65,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/04.png"
+                  src="/images/insights-page/04.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />
@@ -83,7 +83,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/img-06.jpg"
+                src="/images/insights-page/img-06.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -101,7 +101,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/02.png"
+                  src="/images/insights-page/02.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />
@@ -119,7 +119,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/img-05.jpg"
+                src="/images/insights-page/img-05.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -137,7 +137,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/02.png"
+                  src="/images/insights-page/02.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />
@@ -155,7 +155,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/img-11.jpg"
+                src="/images/insights-page/img-11.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -173,7 +173,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/04.png"
+                  src="/images/insights-page/04.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />
@@ -191,7 +191,7 @@ function CardsSection() {
           >
             <div className="p-3">
               <img
-                src="/images/insights-page/img-10.jpg"
+                src="/images/insights-page/img-10.webp"
                 className={`card-img-top rounded-4 ${styles["hover-effect"]}`}
                 alt="card-image"
               />
@@ -209,7 +209,7 @@ function CardsSection() {
               </h4>
               <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
                 <img
-                  src="/images/insights-page/02.png"
+                  src="/images/insights-page/02.webp"
                   alt="author-image"
                   className={`rounded-circle ${styles["rounded-avatar"]}`}
                 />

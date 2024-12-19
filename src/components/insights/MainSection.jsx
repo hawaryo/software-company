@@ -40,7 +40,7 @@ function MainSection() {
         <div className="col-md-6">
           <div className="h-100 p-2">
             <img
-              src="/images/insights-page/post-1.jpg"
+              src="/images/insights-page/post-1.webp"
               alt="hero-image"
               className={`w-100 h-100 rounded-3 ${styles["hover-effect"]} ${styles["main-image"]}`}
             />
@@ -59,7 +59,7 @@ function MainSection() {
             <h2 className="mt-5">Top 5 reasons to invest in marketing</h2>
             <div className="author d-flex align-items-center justify-content-center mt-3 mb-3">
               <img
-                src="/images/insights-page/02.png"
+                src="/images/insights-page/02.webp"
                 alt="author-image"
                 className={`rounded-circle ${styles["rounded-avatar"]}`}
               />

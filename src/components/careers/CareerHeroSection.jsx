@@ -20,7 +20,7 @@ function CareerHeroSection() {
         <div className={`${styles["career-bottom"]} row`}>
           <img
             className="col"
-            src="/images/career-page/career-hero.jpg"
+            src="/images/career-page/career-hero.webp"
             alt="career hero image"
           />
         </div>
